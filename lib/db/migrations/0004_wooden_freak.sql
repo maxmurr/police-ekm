@@ -1,0 +1,1 @@
+ALTER TABLE "police"."incident_reports" DROP CONSTRAINT "incident_reports_case_number_unique";

@@ -1,0 +1,9 @@
+export { default as provinces } from "./provinces";
+export { default as districts } from "./districts";
+export { default as incidentTypes } from "./incident-types";
+export { default as caseStatuses } from "./case-statuses";
+export { default as investigators } from "./investigators";
+export { default as reporters } from "./reporters";
+export { default as locations } from "./locations";
+export { default as incidentReports } from "./incident-reports";
+export { default as caseNotes } from "./case-notes";

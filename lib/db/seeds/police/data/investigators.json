@@ -1,0 +1,24 @@
+[
+  {
+    "investigatorName": "ร.ต.อ.วิชาญ ชัยชนะ",
+    "rank": "ร.ต.อ.",
+    "rankLevel": 4,
+    "badgeNumber": null,
+    "phone": null,
+    "email": null,
+    "department": null,
+    "isActive": true,
+    "hireDate": null
+  },
+  {
+    "investigatorName": "พ.ต.ท.หญิงปรีดา ศรีสุข",
+    "rank": "พ.ต.ท.หญิง",
+    "rankLevel": 6,
+    "badgeNumber": null,
+    "phone": null,
+    "email": null,
+    "department": null,
+    "isActive": true,
+    "hireDate": null
+  }
+]

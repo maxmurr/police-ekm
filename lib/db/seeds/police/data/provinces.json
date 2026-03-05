@@ -1,0 +1,476 @@
+[
+  {
+    "provinceNameTh": "กรุงเทพมหานคร",
+    "provinceNameEn": "Bangkok",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "กระบี่",
+    "provinceNameEn": "Krabi",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "กาญจนบุรี",
+    "provinceNameEn": "Kanchanaburi",
+    "region": "ภาคตะวันตก",
+    "regionCode": "W"
+  },
+  {
+    "provinceNameTh": "กาฬสินธุ์",
+    "provinceNameEn": "Kalasin",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "กำแพงเพชร",
+    "provinceNameEn": "Kamphaeng Phet",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "ขอนแก่น",
+    "provinceNameEn": "Khon Kaen",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "จันทบุรี",
+    "provinceNameEn": "Chanthaburi",
+    "region": "ภาคตะวันออก",
+    "regionCode": "E"
+  },
+  {
+    "provinceNameTh": "จะนะ",
+    "provinceNameEn": "Chana",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "ฉะเชิงเทรา",
+    "provinceNameEn": "Chachoengsao",
+    "region": "ภาคตะวันออก",
+    "regionCode": "E"
+  },
+  {
+    "provinceNameTh": "ชลบุรี",
+    "provinceNameEn": "Chonburi",
+    "region": "ภาคตะวันออก",
+    "regionCode": "E"
+  },
+  {
+    "provinceNameTh": "ชัยนาท",
+    "provinceNameEn": "Chai Nat",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "ชัยภูมิ",
+    "provinceNameEn": "Chaiyaphum",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "ชุมพร",
+    "provinceNameEn": "Chumphon",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "เชียงราย",
+    "provinceNameEn": "Chiang Rai",
+    "region": "ภาคเหนือ",
+    "regionCode": "N"
+  },
+  {
+    "provinceNameTh": "เชียงใหม่",
+    "provinceNameEn": "Chiang Mai",
+    "region": "ภาคเหนือ",
+    "regionCode": "N"
+  },
+  {
+    "provinceNameTh": "ตรัง",
+    "provinceNameEn": "Trang",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "ตราด",
+    "provinceNameEn": "Trat",
+    "region": "ภาคตะวันออก",
+    "regionCode": "E"
+  },
+  {
+    "provinceNameTh": "ตาก",
+    "provinceNameEn": "Tak",
+    "region": "ภาคเหนือ",
+    "regionCode": "N"
+  },
+  {
+    "provinceNameTh": "นครนายก",
+    "provinceNameEn": "Nakhon Nayok",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "นครปฐม",
+    "provinceNameEn": "Nakhon Pathom",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "นครพนม",
+    "provinceNameEn": "Nakhon Phanom",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "นครราชสีมา",
+    "provinceNameEn": "Nakhon Ratchasima",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "นครศรีธรรมราช",
+    "provinceNameEn": "Nakhon Si Thammarat",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "นครสวรรค์",
+    "provinceNameEn": "Nakhon Sawan",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "นนทบุรี",
+    "provinceNameEn": "Nonthaburi",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "นราธิวาส",
+    "provinceNameEn": "Narathiwat",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "น่าน",
+    "provinceNameEn": "Nan",
+    "region": "ภาคเหนือ",
+    "regionCode": "N"
+  },
+  {
+    "provinceNameTh": "บึงกาฬ",
+    "provinceNameEn": "Bueng Kan",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "บุรีรัมย์",
+    "provinceNameEn": "Buriram",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "ปทุมธานี",
+    "provinceNameEn": "Pathum Thani",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "ประจวบคีรีขันธ์",
+    "provinceNameEn": "Prachuap Khiri Khan",
+    "region": "ภาคตะวันตก",
+    "regionCode": "W"
+  },
+  {
+    "provinceNameTh": "ปราจีนบุรี",
+    "provinceNameEn": "Prachinburi",
+    "region": "ภาคตะวันออก",
+    "regionCode": "E"
+  },
+  {
+    "provinceNameTh": "ปัตตานี",
+    "provinceNameEn": "Pattani",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "พระนครศรีอยุธยา",
+    "provinceNameEn": "Phra Nakhon Si Ayutthaya",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "พะเยา",
+    "provinceNameEn": "Phayao",
+    "region": "ภาคเหนือ",
+    "regionCode": "N"
+  },
+  {
+    "provinceNameTh": "พังงา",
+    "provinceNameEn": "Phang Nga",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "พัทลุง",
+    "provinceNameEn": "Phatthalung",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "พิจิตร",
+    "provinceNameEn": "Phichit",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "พิษณุโลก",
+    "provinceNameEn": "Phitsanulok",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "เพชรบุรี",
+    "provinceNameEn": "Phetchaburi",
+    "region": "ภาคตะวันตก",
+    "regionCode": "W"
+  },
+  {
+    "provinceNameTh": "เพชรบูรณ์",
+    "provinceNameEn": "Phetchabun",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "แพร่",
+    "provinceNameEn": "Phrae",
+    "region": "ภาคเหนือ",
+    "regionCode": "N"
+  },
+  {
+    "provinceNameTh": "พุทธมณฑล",
+    "provinceNameEn": "Phutthamonthon",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "ภูเก็ต",
+    "provinceNameEn": "Phuket",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "มหาสารคาม",
+    "provinceNameEn": "Maha Sarakham",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "มุกดาหาร",
+    "provinceNameEn": "Mukdahan",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "แม่ฮ่องสอน",
+    "provinceNameEn": "Mae Hong Son",
+    "region": "ภาคเหนือ",
+    "regionCode": "N"
+  },
+  {
+    "provinceNameTh": "ยโสธร",
+    "provinceNameEn": "Yasothon",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "ยะลา",
+    "provinceNameEn": "Yala",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "ร้อยเอ็ด",
+    "provinceNameEn": "Roi Et",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "ระนอง",
+    "provinceNameEn": "Ranong",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "ระยอง",
+    "provinceNameEn": "Rayong",
+    "region": "ภาคตะวันออก",
+    "regionCode": "E"
+  },
+  {
+    "provinceNameTh": "ราชบุรี",
+    "provinceNameEn": "Ratchaburi",
+    "region": "ภาคตะวันตก",
+    "regionCode": "W"
+  },
+  {
+    "provinceNameTh": "ลพบุรี",
+    "provinceNameEn": "Lopburi",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "ลำปาง",
+    "provinceNameEn": "Lampang",
+    "region": "ภาคเหนือ",
+    "regionCode": "N"
+  },
+  {
+    "provinceNameTh": "ลำพูน",
+    "provinceNameEn": "Lamphun",
+    "region": "ภาคเหนือ",
+    "regionCode": "N"
+  },
+  {
+    "provinceNameTh": "เลย",
+    "provinceNameEn": "Loei",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "ศรีสะเกษ",
+    "provinceNameEn": "Si Sa Ket",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "สกลนคร",
+    "provinceNameEn": "Sakon Nakhon",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "สงขลา",
+    "provinceNameEn": "Songkhla",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "สตูล",
+    "provinceNameEn": "Satun",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "สมุทรปราการ",
+    "provinceNameEn": "Samut Prakan",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "สมุทรสงคราม",
+    "provinceNameEn": "Samut Songkhram",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "สมุทรสาคร",
+    "provinceNameEn": "Samut Sakhon",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "สระแก้ว",
+    "provinceNameEn": "Sa Kaeo",
+    "region": "ภาคตะวันออก",
+    "regionCode": "E"
+  },
+  {
+    "provinceNameTh": "สระบุรี",
+    "provinceNameEn": "Saraburi",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "สิงห์บุรี",
+    "provinceNameEn": "Sing Buri",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "สุโขทัย",
+    "provinceNameEn": "Sukhothai",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "สุพรรณบุรี",
+    "provinceNameEn": "Suphan Buri",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "สุราษฎร์ธานี",
+    "provinceNameEn": "Surat Thani",
+    "region": "ภาคใต้",
+    "regionCode": "S"
+  },
+  {
+    "provinceNameTh": "สุรินทร์",
+    "provinceNameEn": "Surin",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "หนองคาย",
+    "provinceNameEn": "Nong Khai",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "หนองบัวลำภู",
+    "provinceNameEn": "Nong Bua Lam Phu",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "อำนาจเจริญ",
+    "provinceNameEn": "Amnat Charoen",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "อุดรธานี",
+    "provinceNameEn": "Udon Thani",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "อุตรดิตถ์",
+    "provinceNameEn": "Uttaradit",
+    "region": "ภาคเหนือ",
+    "regionCode": "N"
+  },
+  {
+    "provinceNameTh": "อุทัยธานี",
+    "provinceNameEn": "Uthai Thani",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  },
+  {
+    "provinceNameTh": "อุบลราชธานี",
+    "provinceNameEn": "Ubon Ratchathani",
+    "region": "ภาคตะวันออกเฉียงเหนือ",
+    "regionCode": "NE"
+  },
+  {
+    "provinceNameTh": "อ่างทอง",
+    "provinceNameEn": "Ang Thong",
+    "region": "ภาคกลาง",
+    "regionCode": "C"
+  }
+]

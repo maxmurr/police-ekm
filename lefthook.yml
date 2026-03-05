@@ -1,0 +1,17 @@
+pre-commit:
+  parallel: true
+  commands:
+    prettier:
+      glob: "*.{ts,tsx,js,jsx,mjs,json,css,md}"
+      run: bunx prettier --check {staged_files}
+    eslint:
+      glob: "*.{ts,tsx,js,jsx,mjs}"
+      exclude: "node_modules|.next"
+      run: bunx eslint {staged_files}
+    typecheck:
+      run: bun run check-types
+
+commit-msg:
+  commands:
+    commitlint:
+      run: bunx commitlint --edit {1}

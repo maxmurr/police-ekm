@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "incidentTypeNameTh": "อุบัติเหตุจราจร",
+    "incidentTypeNameEn": null,
+    "category": "accident",
+    "severityLevel": "medium",
+    "description": null
+  },
+  {
+    "id": 2,
+    "incidentTypeNameTh": "ฆาตกรรม",
+    "incidentTypeNameEn": null,
+    "category": "crime",
+    "severityLevel": "critical",
+    "description": null
+  },
+  {
+    "id": 3,
+    "incidentTypeNameTh": "ของหาย",
+    "incidentTypeNameEn": null,
+    "category": "theft",
+    "severityLevel": "low",
+    "description": null
+  },
+  {
+    "id": 4,
+    "incidentTypeNameTh": "ฉ้อโกง",
+    "incidentTypeNameEn": null,
+    "category": "crime",
+    "severityLevel": "medium",
+    "description": null
+  },
+  {
+    "id": 5,
+    "incidentTypeNameTh": "ค้ามนุษย์",
+    "incidentTypeNameEn": null,
+    "category": "crime",
+    "severityLevel": "critical",
+    "description": null
+  },
+  {
+    "id": 6,
+    "incidentTypeNameTh": "ลักทรัพย์",
+    "incidentTypeNameEn": null,
+    "category": "theft",
+    "severityLevel": "medium",
+    "description": null
+  },
+  {
+    "id": 7,
+    "incidentTypeNameTh": "บัญชีม้า",
+    "incidentTypeNameEn": null,
+    "category": "crime",
+    "severityLevel": "high",
+    "description": null
+  },
+  {
+    "id": 8,
+    "incidentTypeNameTh": "อาวุธปืน",
+    "incidentTypeNameEn": null,
+    "category": "crime",
+    "severityLevel": "high",
+    "description": null
+  },
+  {
+    "id": 9,
+    "incidentTypeNameTh": "คอมพิวเตอร์",
+    "incidentTypeNameEn": null,
+    "category": "crime",
+    "severityLevel": "medium",
+    "description": null
+  },
+  {
+    "id": 10,
+    "incidentTypeNameTh": "ความผิดเกี่ยวกับเพศ",
+    "incidentTypeNameEn": null,
+    "category": "crime",
+    "severityLevel": "critical",
+    "description": null
+  },
+  {
+    "id": 11,
+    "incidentTypeNameTh": "ทำร้ายร่างกาย",
+    "incidentTypeNameEn": null,
+    "category": "crime",
+    "severityLevel": "high",
+    "description": null
+  },
+  {
+    "id": 12,
+    "incidentTypeNameTh": "ทะเลาะวิวาท",
+    "incidentTypeNameEn": null,
+    "category": "other",
+    "severityLevel": "low",
+    "description": null
+  },
+  {
+    "id": 13,
+    "incidentTypeNameTh": "ยาเสพติด",
+    "incidentTypeNameEn": null,
+    "category": "crime",
+    "severityLevel": "critical",
+    "description": null
+  },
+  {
+    "id": 14,
+    "incidentTypeNameTh": "แจ้งความเท็จ",
+    "incidentTypeNameEn": null,
+    "category": "other",
+    "severityLevel": "low",
+    "description": null
+  }
+]

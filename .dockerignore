@@ -1,0 +1,14 @@
+.git
+.next
+node_modules
+
+.env
+.env.*
+!.env.example
+
+lib/ai/police/evals
+
+*.md
+LICENSE
+.vscode
+.claude

@@ -1,0 +1,1619 @@
+[
+  {
+    "caseNumber": "2568-001",
+    "noteText": "คู่กรณีตกลงไม่ติดใจเอาความหลังตกลงค่าเสียหายแล้ว",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-002",
+    "noteText": "ส่งศพชันสูตรและตรวจสอบกล้องวงจรปิดในบริเวณใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-003",
+    "noteText": "ประสานงานกับเจ้าหน้าที่สวนเพื่อตรวจสอบพื้นที่และสอบถามผู้พบเห็น",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-004",
+    "noteText": "รวบรวมหลักฐานการซื้อขายและตรวจสอบกล้องวงจรปิดของห้าง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-005",
+    "noteText": "ช่วยเหลือเหยื่อและรวบรวมพยานหลักฐานเพื่อดำเนินคดีกับผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-007",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของอพาร์ตเมนต์และเก็บลายนิ้วมือแฝง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-008",
+    "noteText": "รอผลการสอบสวนเพิ่มเติมจากพนักงานสอบสวน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-009",
+    "noteText": "ประสานงานกับเจ้าหน้าที่สวนเพื่อตรวจสอบพื้นที่และสอบถามผู้พบเห็น",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-010",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของบริษัทและเก็บหลักฐานรอยเท้าในที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-011",
+    "noteText": "คู่กรณีตกลงไม่ติดใจเอาความหลังตกลงค่าเสียหายแล้ว",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-012",
+    "noteText": "รอผลการสอบสวนจากพนักงานสอบสวน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-013",
+    "noteText": "คู่กรณีตกลงชดใช้ค่าเสียหายและค่ารักษาพยาบาล",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-014",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของโรงแรมและเก็บหลักฐานในที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-015",
+    "noteText": "ตรวจสอบภาพจากกล้องวงจรปิดในซอยและสอบถามผู้เห็นเหตุการณ์",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-016",
+    "noteText": "ประสานงานร้านค้าบริเวณที่คาดว่าทำหายและตรวจสอบกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-017",
+    "noteText": "รวบรวมข้อมูลการโทรและหลักฐานการโอนเงิน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-018",
+    "noteText": "ตรวจสอบอาวุธปืนและประวัติของผู้ต้องหา",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-020",
+    "noteText": "ประสานงานกับกองบังคับการปราบปรามการกระทำความผิดเกี่ยวกับอาชญากรรมทางเทคโนโลยี (ปอท.) เพื่อกู้คืนระบบและติดตามผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-021",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-022",
+    "noteText": "ตรวจสอบรอยนิ้วมือแฝงในที่เกิดเหตุและประสานเจ้าของอพาร์ตเมนต์ขอดูกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-023",
+    "noteText": "ประสานนิติบุคคลคอนโดเพื่อขอดูกล้องวงจรปิดทางเข้าออกและบนชั้น",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-024",
+    "noteText": "คู่กรณีตกลงค่าเสียหายและเคลียร์กันได้เรียบร้อย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-025",
+    "noteText": "ประสานงานกับฝ่ายรักษาความปลอดภัยสนามบินและตรวจสอบกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-026",
+    "noteText": "ส่งศพชันสูตรเพื่อหาสาเหตุการเสียชีวิตและเก็บหลักฐานเพิ่มเติม",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-027",
+    "noteText": "รวบรวมหลักฐานการติดต่อและสลิปการโอนเงิน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-028",
+    "noteText": "ประสานงานร้านค้าบริเวณที่คาดว่าทำหาย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-030",
+    "noteText": "ประสานงานกับเจ้าของร้านกาแฟเพื่อขอดูกล้องวงจรปิดภายในร้าน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-031",
+    "noteText": "ตรวจสอบภาพจากกล้องวงจรปิดเพื่อระบุตัวผู้ต้องสงสัย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-032",
+    "noteText": "ประสานงานกับผู้เชี่ยวชาญด้านความปลอดภัยทางไซเบอร์เพื่อกู้คืนระบบและติดตามผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-013",
+    "noteText": "คู่กรณีตกลงชดใช้ค่าเสียหายและค่ารักษาพยาบาล",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-034",
+    "noteText": "ประสานนิติบุคคลคอนโดเพื่อขอดูกล้องวงจรปิดทางเข้าออกและบริเวณใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-035",
+    "noteText": "ประสานงานกับหน่วยงานที่เกี่ยวข้องเพื่อช่วยเหลือเหยื่อและติดตามตัวผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-036",
+    "noteText": "ตรวจสอบกล้องวงจรปิดในบริเวณและระบุตัวผู้ต้องสงสัย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-038",
+    "noteText": "รวบรวมหลักฐานข้อความ SMS และบันทึกการทำธุรกรรม",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-039",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดบริเวณใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-040",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดในบริเวณตลาด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-041",
+    "noteText": "ประสานงานร้านค้าบริเวณที่คาดว่าทำหายและตรวจสอบกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-042",
+    "noteText": "ส่งศพชันสูตร (หากมีผู้เสียชีวิต) และตรวจสอบกล้องวงจรปิดบริเวณที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-043",
+    "noteText": "ตรวจสอบระบบรักษาความปลอดภัยของอาคารและกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-044",
+    "noteText": "ตรวจสอบกล้องวงจรปิดภายในร้านและบริเวณโดยรอบ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-045",
+    "noteText": "ส่งเรื่องให้หน่วยพิสูจน์หลักฐานและรอผลชันสูตรพลิกศพของคู่กรณี",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-046",
+    "noteText": "ส่งศพชันสูตร (หากมีผู้เสียชีวิต) และตรวจสอบกล้องวงจรปิดบริเวณที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-048",
+    "noteText": "รวบรวมเอกสารการทำประกันภัยรถยนต์ของทั้งสองฝ่ายเพื่อพิจารณาค่าเสียหาย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-049",
+    "noteText": "ประสานงานกับหน่วยงานที่เกี่ยวข้องเพื่อช่วยเหลือเหยื่อและติดตามตัวผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-050",
+    "noteText": "รอผลการสอบสวนเพิ่มเติมจากพนักงานสอบสวน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-052",
+    "noteText": "ประสานงานกับกองบังคับการปราบปรามการกระทำความผิดเกี่ยวกับอาชญากรรมทางเทคโนโลยี (ปอท.) เพื่อกู้คืนระบบและติดตามผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-053",
+    "noteText": "ตรวจสอบกล้องวงจรปิดบริเวณทางเข้าออกสวนสาธารณะและสอบปากคำพยานที่อาจเห็นเหตุการณ์",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-055",
+    "noteText": "ประสานงานกับหน่วยงานที่เกี่ยวข้องเพื่อช่วยเหลือเหยื่อและติดตามตัวผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-056",
+    "noteText": "ตรวจสอบกล้องวงจรปิดในร้านและสอบปากคำพยาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-057",
+    "noteText": "ส่งศพชันสูตรเพื่อหาสาเหตุการเสียชีวิตและเก็บหลักฐานในที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-058",
+    "noteText": "ประสานหน่วยงานที่ดูแลกล้องวงจรปิดในพื้นที่",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-059",
+    "noteText": "ช่วยเหลือเหยื่อและรวบรวมพยานหลักฐานเพื่อดำเนินคดีกับผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-061",
+    "noteText": "อายัดบัญชีปลายทางและรวบรวมหลักฐานทางดิจิทัล",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-062",
+    "noteText": "คู่กรณีตกลงไม่ติดใจเอาความหลังตกลงค่าเสียหายแล้ว",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-064",
+    "noteText": "ตรวจสอบบันทึกการเข้าออกโกดัง, กล้องวงจรปิด, และสอบปากคำพนักงานที่เกี่ยวข้อง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-065",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดในบริเวณตลาด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-066",
+    "noteText": "ตรวจสอบกล้องวงจรปิดหน้าร้านและเส้นทางหลบหนี",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-068",
+    "noteText": "ตรวจสอบกล้องวงจรปิดหน้าร้านและเส้นทางหลบหนี",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-069",
+    "noteText": "ตรวจสอบกล้องวงจรปิดในหมู่บ้านและบริเวณใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-070",
+    "noteText": "รอผลการเจรจาค่าเสียหายจากบริษัทประกันภัย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-071",
+    "noteText": "ขยายผลและติดตามเครือข่ายยาเสพติดรายใหญ่",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-072",
+    "noteText": "รอผลการเจรจาค่าเสียหายจากประกัน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-073",
+    "noteText": "รอผลการเจรจาค่าเสียหายจากบริษัทประกันภัย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-074",
+    "noteText": "ขยายผลและติดตามเครือข่ายยาเสพติดในชุมชน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-075",
+    "noteText": "ส่งศพชันสูตรและเก็บหลักฐานในที่เกิดเหตุเพื่อระบุตัวผู้เสียชีวิตและคนร้าย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-076",
+    "noteText": "รวบรวมหลักฐานทางดิจิทัลและติดตามตัวผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-077",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-078",
+    "noteText": "สอบปากคำพยานแม่ค้าในตลาดและตรวจสอบกล้องวงจรปิดบริเวณแผงขายของ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-079",
+    "noteText": "รวบรวมหลักฐานการโทรศัพท์และสลิปการโอนเงิน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-080",
+    "noteText": "ตรวจสอบกล้องวงจรปิดหน้าร้านและเส้นทางหลบหนี",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-081",
+    "noteText": "รวบรวมหลักฐานการสนทนาและสลิปการโอนเงิน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-082",
+    "noteText": "รวบรวมสลิปการโอนเงินและบันทึกการโทรศัพท์",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-083",
+    "noteText": "สอบปากคำนักเรียนและผู้ปกครองที่เกี่ยวข้อง พร้อมตรวจสอบพยานหลักฐานจากกล้องวงจรปิดของโรงเรียน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-084",
+    "noteText": "ขยายผลและติดตามเครือข่ายยาเสพติด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-085",
+    "noteText": "สอบปากคำนักเรียนและผู้ปกครองที่เกี่ยวข้อง พร้อมตรวจสอบพยานหลักฐานจากกล้องวงจรปิดของโรงเรียน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-086",
+    "noteText": "สอบปากคำพยานในพื้นที่ และตรวจสอบข้อมูลจากเทศบาลเรื่องการจัดการขยะ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-087",
+    "noteText": "สอบปากคำคู่กรณีทั้งสองฝ่ายและพยานในพื้นที่",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-088",
+    "noteText": "อายัดบัญชีปลายทางและรวบรวมหลักฐานการสนทนา",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-089",
+    "noteText": "ขยายผลและติดตามเครือข่ายยาเสพติดรายใหญ่",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-090",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-091",
+    "noteText": "คาดว่าคนร้ายบุกรุกช่วงกลางคืน ตรวจสอบลายนิ้วมือแฝง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-092",
+    "noteText": "ตรวจสอบภายในโรงงานและสอบปากคำพนักงานที่เกี่ยวข้อง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-093",
+    "noteText": "ตรวจสอบกล้องวงจรปิดในซอยและสอบถามพยานผู้เห็นเหตุการณ์",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-094",
+    "noteText": "รอผลการสอบสวนจากพนักงานสอบสวนและประสานบริษัทประกันภัย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-096",
+    "noteText": "ตรวจสอบกล้องวงจรปิดจากอาคารและร้านค้าบริเวณใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-097",
+    "noteText": "ส่งศพชันสูตรเพื่อหาสาเหตุการเสียชีวิตและเก็บหลักฐานเพิ่มเติม",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-098",
+    "noteText": "ประสานงานร้านค้าบริเวณที่คาดว่าทำหายและตรวจสอบกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-099",
+    "noteText": "อายัดบัญชีปลายทางและรวบรวมหลักฐานการสนทนา",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-100",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของร้านและสอบปากคำพนักงาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-101",
+    "noteText": "อายัดบัญชีปลายทางและรวบรวมหลักฐานการสนทนา",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-102",
+    "noteText": "ประสานเจ้าหน้าที่รักษาความปลอดภัยของห้างเพื่อขอดูกล้องวงจรปิดในโซนดังกล่าว",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-103",
+    "noteText": "ตรวจสอบกล้องวงจรปิดภายในร้านและสอบปากคำพนักงาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-104",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-105",
+    "noteText": "รวบรวมข้อมูลการโทรและสลิปการโอนเงินเพื่อติดตามบัญชีปลายทาง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-106",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-107",
+    "noteText": "สอบปากคำพยานบุคคลในร้านและตรวจสอบภาพจากกล้องวงจรปิดในร้าน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-108",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-109",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของร้านและสอบปากคำพนักงาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-110",
+    "noteText": "ประสานงานกับกองบังคับการปราบปรามการกระทำความผิดเกี่ยวกับอาชญากรรมทางเทคโนโลยี (ปอท.) เพื่อกู้คืนระบบและติดตามผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-111",
+    "noteText": "อายัดบัญชีปลายทางและรวบรวมหลักฐานทางดิจิทัล",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-113",
+    "noteText": "ตรวจสอบภาพจากกล้องวงจรปิดของ กทม. และร้านค้าบริเวณใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-114",
+    "noteText": "อายัดบัญชีปลายทางและรวบรวมหลักฐานการสนทนา",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-115",
+    "noteText": "ประสานงานตรวจสอบกล้องวงจรปิดของ กทม. และห้างสรรพสินค้า",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-116",
+    "noteText": "ตรวจสอบภาพจากกล้องวงจรปิดของสนามกีฬาและสอบพยานผู้เห็นเหตุการณ์",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-117",
+    "noteText": "ประสานงานกับเจ้าหน้าที่รักษาความปลอดภัยของห้างเพื่อขอดูกล้องวงจรปิดในลานจอดรถ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-118",
+    "noteText": "ประสานงานกับฝ่ายรักษาความปลอดภัยของตลาดเพื่อขอดูกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-119",
+    "noteText": "ประสานงานกับเจ้าหน้าที่รักษาความปลอดภัยของซุปเปอร์มาร์เก็ตเพื่อขอดูกล้องวงจรปิดในลานจอดรถ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-120",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-121",
+    "noteText": "ส่งศพชันสูตรเพื่อหาสาเหตุการเสียชีวิตและเก็บหลักฐานในที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-122",
+    "noteText": "ประสานงานกับเจ้าหน้าที่รักษาความปลอดภัยของห้างเพื่อขอดูกล้องวงจรปิดในลานจอดรถ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-123",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-124",
+    "noteText": "รวบรวมหลักฐานการโอนเงิน, แชทการสนทนา, และข้อมูลเว็บไซต์ปลอม",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-125",
+    "noteText": "ตรวจสอบกล้องวงจรปิดภายในร้านและสอบปากคำพนักงาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-126",
+    "noteText": "อายัดบัญชีปลายทางและรวบรวมหลักฐานทางดิจิทัล",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-128",
+    "noteText": "ส่งเด็กเข้าสู่กระบวนการคุ้มครองพยานและสอบสวนตามขั้นตอนกฎหมาย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-129",
+    "noteText": "ประสานงานกับฝ่ายจัดการฟิตเนสเพื่อขอดูกล้องวงจรปิดในบริเวณล็อกเกอร์และพื้นที่ออกกำลังกาย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-131",
+    "noteText": "ขยายผลและติดตามเครือข่ายยาเสพติด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-132",
+    "noteText": "ตรวจสอบกล้องวงจรปิดหน้าร้านและเส้นทางหลบหนี",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-133",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดของผับ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-134",
+    "noteText": "รอผลการเจรจาค่าเสียหายจากบริษัทประกันภัย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-135",
+    "noteText": "ขยายผลและติดตามเครือข่ายยาเสพติด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-136",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดของสถานบันเทิง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-137",
+    "noteText": "ตรวจสอบภาพจากกล้องวงจรปิดของโรงงานและรวบรวมหลักฐานร่องรอยการงัดแงะ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-138",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดในบริเวณตลาด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-139",
+    "noteText": "รอผลการสอบสวนเพิ่มเติมจากพนักงานสอบสวน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-140",
+    "noteText": "ประสานงานกับกองบังคับการปราบปรามการกระทำความผิดเกี่ยวกับอาชญากรรมทางเทคโนโลยี (ปอท.) เพื่อสอบสวนเพิ่มเติม",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-141",
+    "noteText": "รวบรวมหลักฐานทางดิจิทัลและอายัดบัญชีปลายทาง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-142",
+    "noteText": "ประสานงานกับเจ้าหน้าที่รักษาความปลอดภัยของห้างเพื่อขอดูกล้องวงจรปิดในลานจอดรถ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-143",
+    "noteText": "รวบรวมหลักฐานการสนทนาและสลิปการโอนเงินเพื่อติดตามบัญชีปลายทาง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-144",
+    "noteText": "สอบปากคำพยานแม่ค้าในตลาดและตรวจสอบกล้องวงจรปิดเพื่อหารูปพรรณสัณฐานผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-145",
+    "noteText": "เก็บหลักฐานลายนิ้วมือแฝงและตรวจสอบกล้องวงจรปิดบริเวณใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-147",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-148",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-149",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดบริเวณใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-151",
+    "noteText": "ประสานงานกับเจ้าหน้าที่สวนเพื่อตรวจสอบพื้นที่และสอบถามผู้พบเห็น",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-152",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดบริเวณแผงขายสินค้า",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-153",
+    "noteText": "สอบปากคำพยานแม่ค้าในตลาดและตรวจสอบกล้องวงจรปิดเพื่อหารูปพรรณสัณฐานผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-155",
+    "noteText": "ส่งศพชันสูตร (หากมีผู้เสียชีวิต) และตรวจสอบกล้องวงจรปิดบริเวณที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-156",
+    "noteText": "ตรวจสอบภาพจากกล้องวงจรปิดของนิคมอุตสาหกรรมและเก็บหลักฐานในที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-157",
+    "noteText": "ประสานเจ้าหน้าที่รักษาความปลอดภัยของศูนย์การค้าเพื่อขอดูกล้องวงจรปิดในบริเวณดังกล่าว",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-158",
+    "noteText": "สอบปากคำคู่กรณีทั้งสองฝ่ายและพยานในพื้นที่ใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-159",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของโรงแรมและสอบถามพนักงาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-160",
+    "noteText": "ประสานงานกับเจ้าหน้าที่สวนเพื่อตรวจสอบพื้นที่และสอบถามผู้พบเห็น",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-161",
+    "noteText": "ประสานงานกับกองบังคับการปราบปรามการกระทำความผิดเกี่ยวกับอาชญากรรมทางเทคโนโลยี (ปอท.)",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-162",
+    "noteText": "ตรวจสอบภาพจากกล้องวงจรปิดของสนามกีฬาและสอบพยานผู้เห็นเหตุการณ์",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-163",
+    "noteText": "รวบรวมหลักฐานการซื้อขายและตรวจสอบกล้องวงจรปิดของห้าง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-164",
+    "noteText": "ประสานงานกับกองบังคับการปราบปรามการกระทำความผิดเกี่ยวกับอาชญากรรมทางเทคโนโลยี (ปอท.) เพื่อกู้คืนระบบและติดตามผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-165",
+    "noteText": "ขยายผลและติดตามเครือข่ายยาเสพติด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-166",
+    "noteText": "ขยายผลและติดตามเครือข่ายยาเสพติดรายใหญ่ข้ามชาติ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-167",
+    "noteText": "ผู้บาดเจ็บส่งโรงพยาบาลและรอผลการรักษา",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-168",
+    "noteText": "ประสานงานกับเจ้าหน้าที่สวนเพื่อตรวจสอบพื้นที่และสอบถามผู้พบเห็น",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-169",
+    "noteText": "รอผลการสอบสวนจากพนักงานสอบสวน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-170",
+    "noteText": "อายัดบัญชีปลายทางและรวบรวมหลักฐานการสนทนา",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-171",
+    "noteText": "รวบรวมหลักฐานการซื้อขายและตรวจสอบกล้องวงจรปิดของห้าง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-172",
+    "noteText": "ตรวจสอบกล้องวงจรปิดในบริเวณใกล้เคียง และเก็บลายนิ้วมือแฝงในที่เกิดเหตุเพิ่มเติม",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-173",
+    "noteText": "ตรวจสอบกล้องวงจรปิดหน้าร้านและเส้นทางหลบหนี",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-175",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดของสถานีรถไฟฟ้า",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-176",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-177",
+    "noteText": "ตรวจสอบกล้องวงจรปิดในบริเวณสวนสาธารณะ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-178",
+    "noteText": "คู่กรณีทั้งสองฝ่ายตกลงประนีประนอมกัน โดยมีการทำข้อตกลงเรื่องการจอดรถให้ชัดเจน และขอโทษซึ่งกันและกัน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-179",
+    "noteText": "ส่งศพชันสูตรเพื่อหาสาเหตุการเสียชีวิตและเก็บหลักฐานในที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-180",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-181",
+    "noteText": "รอผลการสอบสวนเพิ่มเติมจากพนักงานสอบสวน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-182",
+    "noteText": "ขยายผลและติดตามเครือข่ายยาเสพติด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-183",
+    "noteText": "ขยายผลและติดตามเครือข่ายยาเสพติด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-184",
+    "noteText": "ตรวจสอบประวัติอาชญากรรมของผู้ต้องหาและแหล่งที่มาของอาวุธปืน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-185",
+    "noteText": "ประสานงานกับฝ่ายรักษาความปลอดภัยของสวนสาธารณะเพื่อขอดูกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-186",
+    "noteText": "รวบรวมพยานบุคคลจากพนักงานในร้านและตรวจสอบกล้องวงจรปิดของร้าน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-187",
+    "noteText": "ตรวจสอบภาพจากกล้องวงจรปิดของ กทม. และร้านค้าบริเวณใกล้เคียงเพื่อหารายละเอียดรถคู่กรณี",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-188",
+    "noteText": "ประสานนิติบุคคลคอนโดเพื่อขอดูกล้องวงจรปิดทางเข้าออกและบริเวณใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-189",
+    "noteText": "รวบรวมหลักฐานการสนทนาทางโทรศัพท์และสลิปการโอนเงิน เพื่อตรวจสอบข้อมูลบัญชีปลายทาง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-191",
+    "noteText": "ประสานงานร้านค้าบริเวณที่คาดว่าทำหายและตรวจสอบกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-192",
+    "noteText": "ตรวจสอบกล้องวงจรปิดจากร้านค้าบริเวณปากซอย และสอบถามพยานผู้เห็นเหตุการณ์",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-193",
+    "noteText": "ประสานงานกับฝ่ายกฎหมายของทั้งสองฝ่าย และตรวจสอบเอกสารสิทธิ์ที่ดิน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-194",
+    "noteText": "ประสานงานกับกองบังคับการปราบปรามการกระทำความผิดเกี่ยวกับอาชญากรรมทางเทคโนโลยี (ปอท.)",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-195",
+    "noteText": "ประสานเจ้าหน้าที่รักษาความปลอดภัยของศูนย์การค้าเพื่อขอดูกล้องวงจรปิดในบริเวณดังกล่าว",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-196",
+    "noteText": "สอบปากคำพยานแม่ค้าในตลาด และตรวจสอบกล้องวงจรปิดในบริเวณตลาดเพื่อหารูปพรรณสัณฐานผู้กระทำผิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-197",
+    "noteText": "ส่งศพชันสูตรเพื่อหาสาเหตุการเสียชีวิตและเก็บหลักฐานในที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-198",
+    "noteText": "ตรวจสอบบันทึกการเข้าออกโกดัง, กล้องวงจรปิด, และสอบปากคำพนักงานที่เกี่ยวข้อง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-199",
+    "noteText": "ส่งศพชันสูตรเพื่อหาสาเหตุการเสียชีวิตและเก็บหลักฐานเพิ่มเติม",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-200",
+    "noteText": "ตรวจสอบภาพจากกล้องวงจรปิดเพื่อระบุตัวผู้ต้องสงสัย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-201",
+    "noteText": "ประสานนิติบุคคลอาคารชุดเพื่อไกล่เกลี่ย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-202",
+    "noteText": "ตรวจสอบรอยนิ้วมือแฝงและกล้องวงจรปิดใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-203",
+    "noteText": "รวบรวมหลักฐานการโอนเงินและข้อมูลการติดต่อ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-204",
+    "noteText": "รอผลการตรวจสภาพรถและเจรจาประกัน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-205",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของสถานีรถไฟฟ้าและสอบพยาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-206",
+    "noteText": "ประสานงานร้านค้าบริเวณที่คาดว่าทำหายและตรวจสอบกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-207",
+    "noteText": "ตรวจสอบรอยนิ้วมือแฝงและกล้องวงจรปิดของคอนโดมิเนียม",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-208",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดในบริเวณจุดเกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-209",
+    "noteText": "รอผลการรักษาผู้บาดเจ็บและตรวจสอบกล้องวงจรปิดจราจร",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-210",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของสนามกีฬาและสอบพยาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-211",
+    "noteText": "ประสานงานกับเจ้าหน้าที่สวนสัตว์เพื่อตรวจสอบพื้นที่และสอบถามผู้พบเห็น",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-212",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของบริษัทและเก็บลายนิ้วมือแฝง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-213",
+    "noteText": "สอบปากคำพยานแม่ค้าในตลาดและตรวจสอบกล้องวงจรปิดบริเวณแผงขายของ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-214",
+    "noteText": "ตรวจสอบกล้องวงจรปิดจากอาคารและร้านค้าบริเวณใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-215",
+    "noteText": "ประสานงานกับเจ้าหน้าที่รักษาความปลอดภัยของห้างเพื่อขอดูกล้องวงจรปิดในลานจอดรถ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-216",
+    "noteText": "ประสานงานร้านค้าบริเวณที่คาดว่าทำหาย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-217",
+    "noteText": "ตรวจสอบกล้องวงจรปิดหน้าร้านและเส้นทางหลบหนี",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-218",
+    "noteText": "อายัดบัญชีปลายทางและรวบรวมหลักฐานการสนทนา",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-219",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดของบาร์",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-220",
+    "noteText": "ประสานงานกับเจ้าหน้าที่สวนเพื่อตรวจสอบพื้นที่และสอบถามผู้พบเห็น",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-221",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของบริษัทและเก็บหลักฐานรอยเท้าในที่เกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-222",
+    "noteText": "ส่งเรื่องให้หน่วยพิสูจน์หลักฐานและรอผลชันสูตรพลิกศพของคู่กรณี",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-223",
+    "noteText": "รวบรวมหลักฐานการสนทนาและสลิปการโอนเงิน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-224",
+    "noteText": "สอบปากคำคู่กรณีทั้งสองฝ่ายและพยานในพื้นที่",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-225",
+    "noteText": "ประสานงานกับเจ้าหน้าที่รักษาความปลอดภัยของห้างเพื่อขอดูกล้องวงจรปิดในลานจอดรถ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-226",
+    "noteText": "สอบปากคำพยานแม่ค้าในตลาดและตรวจสอบกล้องวงจรปิดบริเวณแผงขายของ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-227",
+    "noteText": "ตรวจสอบภาพจากกล้องวงจรปิดในซอยและสอบถามผู้เห็นเหตุการณ์",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-228",
+    "noteText": "ประสานงานกับเจ้าของร้านกาแฟเพื่อขอดูกล้องวงจรปิดภายในร้าน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-229",
+    "noteText": "ตรวจสอบกล้องวงจรปิดบริเวณทางเข้าออกสวนสาธารณะและสอบปากคำพยานที่อาจเห็นเหตุการณ์",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-230",
+    "noteText": "รวบรวมข้อมูลการโทรและสลิปการโอนเงินเพื่อติดตามบัญชีปลายทาง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-231",
+    "noteText": "รอผลการสอบสวนเพิ่มเติมจากพนักงานสอบสวน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-232",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของโรงแรมและสอบถามพนักงาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-233",
+    "noteText": "ประสานงานกับฝ่ายรักษาความปลอดภัยสนามบินและตรวจสอบกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-234",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดในบริเวณตลาด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-235",
+    "noteText": "รอผลการเจรจาค่าเสียหายจากประกัน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-236",
+    "noteText": "สอบปากคำนักเรียนและผู้ปกครองที่เกี่ยวข้อง พร้อมตรวจสอบพยานหลักฐานจากกล้องวงจรปิดของโรงเรียน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-237",
+    "noteText": "ประสานงานกับเจ้าหน้าที่รักษาความปลอดภัยของซุปเปอร์มาร์เก็ตเพื่อขอดูกล้องวงจรปิดในลานจอดรถ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-238",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดบริเวณแผงขายสินค้า",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-239",
+    "noteText": "คู่กรณีตกลงค่าเสียหายและเคลียร์กันได้เรียบร้อย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-240",
+    "noteText": "ประสานนิติบุคคลอาคารชุดเพื่อไกล่เกลี่ย",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-241",
+    "noteText": "ตรวจสอบรอยนิ้วมือแฝงและกล้องวงจรปิดใกล้เคียง",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-242",
+    "noteText": "รวบรวมหลักฐานการโอนเงินและข้อมูลการติดต่อ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-243",
+    "noteText": "รอผลการตรวจสภาพรถและเจรจาประกัน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-244",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของร้านอาหารและสอบพยาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-245",
+    "noteText": "ประสานงานร้านค้าบริเวณที่คาดว่าทำหายและตรวจสอบกล้องวงจรปิด",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-246",
+    "noteText": "ตรวจสอบรอยนิ้วมือแฝงและกล้องวงจรปิดของคอนโดมิเนียม",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-247",
+    "noteText": "สอบปากคำพยานและตรวจสอบกล้องวงจรปิดในบริเวณจุดเกิดเหตุ",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "พ.ต.ท.หญิงปรีดา ศรีสุข"
+  },
+  {
+    "caseNumber": "2568-248",
+    "noteText": "รอผลการตรวจสภาพรถและเจรจาประกัน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-249",
+    "noteText": "ตรวจสอบกล้องวงจรปิดของสวนสัตว์และสอบพยาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  },
+  {
+    "caseNumber": "2568-250",
+    "noteText": "ตรวจสอบกล้องวงจรปิดภายในร้านและสอบปากคำพยาน",
+    "noteType": "investigation",
+    "priority": "medium",
+    "createdByName": "ร.ต.อ.วิชาญ ชัยชนะ"
+  }
+]

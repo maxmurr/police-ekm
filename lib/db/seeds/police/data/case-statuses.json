@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "statusNameTh": "ยุติการสอบสวน",
+    "statusNameEn": null,
+    "statusOrder": 3,
+    "isClosed": true,
+    "description": null
+  },
+  {
+    "id": 2,
+    "statusNameTh": "อยู่ระหว่างสอบสวน",
+    "statusNameEn": null,
+    "statusOrder": 2,
+    "isClosed": false,
+    "description": null
+  }
+]

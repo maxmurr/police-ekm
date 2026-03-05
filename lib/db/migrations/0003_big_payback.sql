@@ -1,0 +1,2 @@
+ALTER TABLE "police"."incident_reports" ADD COLUMN "case_number" varchar(20);--> statement-breakpoint
+ALTER TABLE "police"."incident_reports" ADD CONSTRAINT "incident_reports_case_number_unique" UNIQUE("case_number");

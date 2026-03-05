@@ -1,0 +1,2152 @@
+[
+  {
+    "id": 1,
+    "locationGeneral": "ถนนสุขุมวิท ซอย 22",
+    "locationSpecific": "เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 2,
+    "locationGeneral": "บ้านพัก ซอยลาดพร้าว 122",
+    "locationSpecific": "เขตวังทองหลาง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 3,
+    "locationGeneral": "สวนเบญจกิติ",
+    "locationSpecific": "เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "park"
+  },
+  {
+    "id": 4,
+    "locationGeneral": "ห้างสรรพสินค้าเมเจอร์ รัชโยธิน",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 5,
+    "locationGeneral": "โรงงานผลิตเสื้อผ้าแห่งหนึ่งในจังหวัดนครปฐม",
+    "locationSpecific": "จังหวัดนครปฐม",
+    "districtId": null,
+    "provinceId": 20,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 6,
+    "locationGeneral": "อพาร์ตเมนต์ศุภาลัยเพลส รัชดา ห้อง 702",
+    "locationSpecific": "เขตดินแดง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 7,
+    "locationGeneral": "ถนนพหลโยธิน ซอย 2",
+    "locationSpecific": "เขตพญาไท",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 8,
+    "locationGeneral": "สวนสาธารณะลุมพินี",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "park"
+  },
+  {
+    "id": 9,
+    "locationGeneral": "บริษัท โลจิสติกส์เอ็กซ์เพรส สำนักงานใหญ่",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 10,
+    "locationGeneral": "ถนนวิภาวดีรังสิต (ขาเข้า)",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 11,
+    "locationGeneral": "ถนนสุขุมวิท ซอย 39",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 12,
+    "locationGeneral": "สี่แยกอโศกมนตรี",
+    "locationSpecific": "เขตวัฒนา และ เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 13,
+    "locationGeneral": "โรงแรมแห่งหนึ่ง ย่านสุขุมวิท",
+    "locationSpecific": "เขตคลองเตย หรือ เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 14,
+    "locationGeneral": "ถนนรามคำแหง ซอย 43/1",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 15,
+    "locationGeneral": "ตลาดนัดรถไฟรัชดา",
+    "locationSpecific": "เขตดินแดง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 16,
+    "locationGeneral": "อาคารพาณิชย์ ซอยประชาอุทิศ 90",
+    "locationSpecific": "เขตทุ่งครุ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 17,
+    "locationGeneral": "สนามยิงปืนแห่งหนึ่งในกรุงเทพฯ",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 18,
+    "locationGeneral": "สำนักงานบริษัท ย่านอโศก",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 19,
+    "locationGeneral": "ด่านตรวจชายแดน อ.สุไหงโก-ลก จ.นราธิวาส",
+    "locationSpecific": "จังหวัดนราธิวาส",
+    "districtId": null,
+    "provinceId": 26,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 20,
+    "locationGeneral": "อพาร์ตเมนต์ สบายดีเพลส ห้อง 305",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 21,
+    "locationGeneral": "คอนโดมิเนียม เดอะไลฟ์ อาคาร B ชั้น 15",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 22,
+    "locationGeneral": "ถนนพระราม 4 ใกล้สามย่านมิตรทาวน์",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 23,
+    "locationGeneral": "ท่าอากาศยานสุวรรณภูมิ (อาคารผู้โดยสารขาเข้า)",
+    "locationSpecific": "จังหวัดสมุทรปราการ",
+    "districtId": null,
+    "provinceId": 62,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 24,
+    "locationGeneral": "บ้านพักอาศัย ซอยสุขุมวิท 71",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 25,
+    "locationGeneral": "บริษัท เฟิร์ส สตาร์ทอัพ จำกัด อาคาร A ชั้น 5",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 26,
+    "locationGeneral": "ตลาดนัดจตุจักร โครงการ 12",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 27,
+    "locationGeneral": "ร้านกาแฟ มุมโปรด ซอยอารีย์",
+    "locationSpecific": "เขตพญาไท",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 28,
+    "locationGeneral": "ร้านสะดวกซื้อ 7-Eleven สาขาซอย 101/1",
+    "locationSpecific": "เขตพระโขนง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 29,
+    "locationGeneral": "ธนาคารกรุงไทย สาขาลาดพร้าว 101",
+    "locationSpecific": "เขตวังทองหลาง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 30,
+    "locationGeneral": "คอนโดมิเนียมสุขสบาย เรสซิเดนซ์ ชั้น 10",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 31,
+    "locationGeneral": "โรงพยาบาลเอกชนแห่งหนึ่งในกรุงเทพฯ",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 32,
+    "locationGeneral": "โรงแรมแห่งหนึ่ง ย่านสยาม",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 33,
+    "locationGeneral": "สถานีบริการน้ำมัน ปตท. สาขาแจ้งวัฒนะ",
+    "locationSpecific": "เขตหลักสี่",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 34,
+    "locationGeneral": "บ้านพัก ซอยสุขุมวิท 24",
+    "locationSpecific": "เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 35,
+    "locationGeneral": "ตลาดนัดกลางคืน หน้าเซ็นทรัลลาดพร้าว",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 36,
+    "locationGeneral": "ห้างสรรพสินค้าเมกาบางนา (แผนกเครื่องสำอาง)",
+    "locationSpecific": "จังหวัดสมุทรปราการ",
+    "districtId": null,
+    "provinceId": 62,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 37,
+    "locationGeneral": "บริษัท เทคโนโลยีล้ำสมัย อาคาร C ชั้น 10",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 38,
+    "locationGeneral": "ร้านทอง ทองดีมีสุข ย่านบางกะปิ",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 39,
+    "locationGeneral": "ซอยลาดพร้าว 71 (ใกล้ร้านสะดวกซื้อ)",
+    "locationSpecific": "เขตลาดพร้าว",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 40,
+    "locationGeneral": "ถนนพระราม 9 (ขาออก)",
+    "locationSpecific": "ผ่าน เขตห้วยขวาง, เขตสวนหลวง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 41,
+    "locationGeneral": "ถนนพระราม 9 ใกล้แยกผังเมือง",
+    "locationSpecific": "เขตห้วยขวาง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 42,
+    "locationGeneral": "สถานีรถไฟหัวลำโพง",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 43,
+    "locationGeneral": "ถนนพหลโยธิน ซอย 32",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 44,
+    "locationGeneral": "ลานจอดรถสวนสาธารณะแห่งหนึ่งในกรุงเทพฯ",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "park"
+  },
+  {
+    "id": 45,
+    "locationGeneral": "สถานีขนส่งผู้โดยสารกรุงเทพฯ (หมอชิต)",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 46,
+    "locationGeneral": "ร้านอาหาร ครัวคุณยาย ซอยเอกมัย 12",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 47,
+    "locationGeneral": "บ้านพัก ซอยรามคำแหง 24",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 48,
+    "locationGeneral": "ป้ายรถเมล์หน้าโรงพยาบาลพระมงกุฎเกล้า",
+    "locationSpecific": "เขตราชเทวี",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 49,
+    "locationGeneral": "โรงงานร้างแห่งหนึ่งในจังหวัดสมุทรปราการ",
+    "locationSpecific": "จังหวัดสมุทรปราการ",
+    "districtId": null,
+    "provinceId": 62,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 50,
+    "locationGeneral": "ธนาคารกรุงเทพ สาขาสยามสแควร์",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 51,
+    "locationGeneral": "ถนนรัชดาภิเษก (ขาเข้า)",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 52,
+    "locationGeneral": "โกดังเก็บสินค้า ถนนบางนา-ตราด กม.10",
+    "locationSpecific": "จังหวัดสมุทรปราการ",
+    "districtId": null,
+    "provinceId": 62,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 53,
+    "locationGeneral": "ตลาดสดมหานาค",
+    "locationSpecific": "เขตดุสิต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 54,
+    "locationGeneral": "ร้านทองเยาวราช ถนนเยาวราช",
+    "locationSpecific": "เขตสัมพันธวงศ์",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 55,
+    "locationGeneral": "ร้านทอง ทองเยาวราช ย่านบางลำพู",
+    "locationSpecific": "เขตพระนคร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 56,
+    "locationGeneral": "บ้านเลขที่ 88/11 หมู่บ้านประภัสสร",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 57,
+    "locationGeneral": "ถนนพหลโยธิน (ขาออก)",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 58,
+    "locationGeneral": "โกดังร้างแห่งหนึ่งในจังหวัดนนทบุรี",
+    "locationSpecific": "จังหวัดนนทบุรี",
+    "districtId": null,
+    "provinceId": 25,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 59,
+    "locationGeneral": "ถนนพหลโยธิน ซอย 5",
+    "locationSpecific": "เขตพญาไท",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 60,
+    "locationGeneral": "ถนนวิภาวดีรังสิต ขาเข้า (ใกล้แยกสุทธิสาร)",
+    "locationSpecific": "เขตพญาไท",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 61,
+    "locationGeneral": "ชุมชนแออัดแห่งหนึ่งในเขตห้วยขวาง",
+    "locationSpecific": "เขตห้วยขวาง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 62,
+    "locationGeneral": "บ้านร้างท้ายซอยสุขุมวิท 101",
+    "locationSpecific": "เขตบางนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 63,
+    "locationGeneral": "สำนักงาน บช.สอท.",
+    "locationSpecific": "จังหวัดนนทบุรี",
+    "districtId": null,
+    "provinceId": 25,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 64,
+    "locationGeneral": "ด่านตรวจท่าเรือคลองเตย",
+    "locationSpecific": "เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 65,
+    "locationGeneral": "ตลาดสดปากน้ำ",
+    "locationSpecific": "จังหวัดสมุทรปราการ",
+    "districtId": null,
+    "provinceId": 62,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 66,
+    "locationGeneral": "บ้านพัก ซอยรามอินทรา 40",
+    "locationSpecific": "เขตบึงกุ่ม",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 67,
+    "locationGeneral": "ร้านทอง ทองแท้ ย่านบางกะปิ",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 68,
+    "locationGeneral": "สถาบันสอนภาษาแห่งหนึ่ง ย่านสามย่าน",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 69,
+    "locationGeneral": "คลินิกทันตกรรม ยิ้มสวย สุขุมวิท 49",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 70,
+    "locationGeneral": "โรงเรียนอนุบาลแห่งหนึ่งในกรุงเทพฯ",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 71,
+    "locationGeneral": "อาคารพาณิชย์แห่งหนึ่ง ย่านบางซื่อ",
+    "locationSpecific": "เขตบางซื่อ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 72,
+    "locationGeneral": "โรงเรียนประถมแห่งหนึ่งในกรุงเทพฯ",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 73,
+    "locationGeneral": "บ้านพักริมน้ำ ซอยวัดอุโมงค์ เชียงใหม่",
+    "locationSpecific": "จังหวัดเชียงใหม่",
+    "districtId": null,
+    "provinceId": 15,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 74,
+    "locationGeneral": "บ้านพัก หมู่บ้านพฤกษาวิลเลจ ถนนกาญจนาภิเษก",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 75,
+    "locationGeneral": "บ้านพัก ซอยเพชรเกษม 90",
+    "locationSpecific": "เขตบางแค",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 76,
+    "locationGeneral": "อพาร์ตเมนต์แห่งหนึ่ง ย่านบางแค",
+    "locationSpecific": "เขตบางแค",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 77,
+    "locationGeneral": "ด่านตรวจชายแดน อ.แม่สอด จ.ตาก",
+    "locationSpecific": "จังหวัดตาก",
+    "districtId": null,
+    "provinceId": 18,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 78,
+    "locationGeneral": "บ้านเลขที่ 123 ถนนสุขุมวิท ซ.10",
+    "locationSpecific": "เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 79,
+    "locationGeneral": "โรงงานผลิตชิ้นส่วนยานยนต์แห่งหนึ่งในจังหวัดชลบุรี",
+    "locationSpecific": "จังหวัดชลบุรี",
+    "districtId": null,
+    "provinceId": 10,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 80,
+    "locationGeneral": "ถนนลาดพร้าว ซอย 8 (ใกล้ร้านอาหาร)",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 81,
+    "locationGeneral": "ถนนเพชรบุรีตัดใหม่ (ใกล้แยกเอกมัย)",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 82,
+    "locationGeneral": "ซอยสุขุมวิท 24 (ใกล้ปากซอย)",
+    "locationSpecific": "เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 83,
+    "locationGeneral": "บ้านพัก ซอยรามคำแหง 118",
+    "locationSpecific": "เขตสะพานสูง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 84,
+    "locationGeneral": "ห้างสรรพสินค้าเซ็นทรัลเวิลด์ (แผนกนาฬิกา)",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 85,
+    "locationGeneral": "บ้านพัก ซอยเพชรเกษม 63",
+    "locationSpecific": "เขตบางแค",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 86,
+    "locationGeneral": "ร้านสะดวกซื้อ 7-Eleven สาขาลาดพร้าว 71",
+    "locationSpecific": "เขตลาดพร้าว",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 87,
+    "locationGeneral": "บ้านพัก ซอยแจ้งวัฒนะ 14",
+    "locationSpecific": "เขตหลักสี่",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 88,
+    "locationGeneral": "ศูนย์การค้าเซ็นทรัลเวิลด์",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 89,
+    "locationGeneral": "ร้านเสริมสวยแห่งหนึ่ง ย่านสยาม",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 90,
+    "locationGeneral": "ด่านตรวจทางหลวงหมายเลข 340",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 91,
+    "locationGeneral": "บริษัท เวิลด์เทค จำกัด (ย่านสาทร)",
+    "locationSpecific": "เขตสาทร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 92,
+    "locationGeneral": "จุดตรวจความมั่นคง ถนนกาญจนาภิเษก",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 93,
+    "locationGeneral": "ร้านเสริมสวย สวยเป๊ะเวอร์ ซอยสุขุมวิท 22",
+    "locationSpecific": "เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 94,
+    "locationGeneral": "จุดตรวจความมั่นคง ถนนพุทธมณฑลสาย 2",
+    "locationSpecific": "เขตบางแค",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 95,
+    "locationGeneral": "ร้านสะดวกซื้อ FamilyMart สาขาพุทธมณฑลสาย 2",
+    "locationSpecific": "เขตบางแค",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 96,
+    "locationGeneral": "สำนักงานบริษัท ย่านพญาไท",
+    "locationSpecific": "เขตพญาไท",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 97,
+    "locationGeneral": "ธนาคารกสิกรไทย สาขาถนนเพชรบุรี",
+    "locationSpecific": "เขตราชเทวี",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 98,
+    "locationGeneral": "ถนนพหลโยธิน ขาเข้า (ใกล้แยกเกษตร)",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 99,
+    "locationGeneral": "บริเวณป้ายรถเมล์หน้าห้างสรรพสินค้าเดอะมอลล์บางกะปิ",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 100,
+    "locationGeneral": "สนามกีฬาไทย-ญี่ปุ่น ดินแดง",
+    "locationSpecific": "เขตดินแดง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 101,
+    "locationGeneral": "ลานจอดรถห้างสรรพสินค้าแฟชั่นไอส์แลนด์",
+    "locationSpecific": "เขตคันนายาว",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 102,
+    "locationGeneral": "ตลาดนัดรถไฟ ศรีนครินทร์",
+    "locationSpecific": "เขตประเวศ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 103,
+    "locationGeneral": "ลานจอดรถซุปเปอร์มาร์เก็ตแห่งหนึ่ง",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 104,
+    "locationGeneral": "ด่านตรวจความมั่นคง ถนนสายเอเชีย",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 105,
+    "locationGeneral": "โรงงานผลิตยาแห่งหนึ่งในจังหวัดปทุมธานี",
+    "locationSpecific": "จังหวัดปทุมธานี",
+    "districtId": null,
+    "provinceId": 30,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 106,
+    "locationGeneral": "ลานจอดรถห้างสรรพสินค้าเมเจอร์ รัชโยธิน",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 107,
+    "locationGeneral": "ด่านตรวจชายแดน อ.อรัญประเทศ จ.สระแก้ว",
+    "locationSpecific": "จังหวัดสระแก้ว",
+    "districtId": null,
+    "provinceId": 65,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 108,
+    "locationGeneral": "อาคารสำนักงานชั้น 5 ถ.วิภาวดีรังสิต",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 109,
+    "locationGeneral": "ร้านอาหาร รสเด็ด ย่านบางลำพู",
+    "locationSpecific": "เขตพระนคร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 110,
+    "locationGeneral": "บ้านพัก ซอยพัฒนาการ 20",
+    "locationSpecific": "เขตสวนหลวง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 111,
+    "locationGeneral": "บ้านพัก ซอยลาดพร้าว 50",
+    "locationSpecific": "เขตวังทองหลาง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 112,
+    "locationGeneral": "ฟิตเนส สตรองกาย สาขาสยามสแควร์",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 113,
+    "locationGeneral": "คอนโดมิเนียมแห่งหนึ่ง ย่านเอกมัย",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 114,
+    "locationGeneral": "ร้านทอง ทองคำแท้ ย่านเยาวราช",
+    "locationSpecific": "เขตสัมพันธวงศ์",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 115,
+    "locationGeneral": "ผับ แสงจันทร์ ย่านทองหล่อ",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 116,
+    "locationGeneral": "ถนนพระราม 9 (ใกล้แยกรามคำแหง)",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 117,
+    "locationGeneral": "อาคารพาณิชย์แห่งหนึ่ง ย่านจรัญสนิทวงศ์",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 118,
+    "locationGeneral": "ลานจอดรถสถานบันเทิง ย่านรัชดาภิเษก",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 119,
+    "locationGeneral": "โรงงานผลิตอาหาร ถนนบางนา-ตราด กม.20",
+    "locationSpecific": "จังหวัดสมุทรปราการ",
+    "districtId": null,
+    "provinceId": 62,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 120,
+    "locationGeneral": "ตลาดนัดจตุจักร",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 121,
+    "locationGeneral": "ถนนรัชดาภิเษก (ใกล้สถานี MRT สุทธิสาร)",
+    "locationSpecific": "เขตห้วยขวาง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 122,
+    "locationGeneral": "บ้านพัก ซอยพุทธมณฑลสาย 4",
+    "locationSpecific": "จังหวัดนครปฐม",
+    "districtId": null,
+    "provinceId": 20,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 123,
+    "locationGeneral": "ลานจอดรถห้างสรรพสินค้าเซ็นทรัลพระราม 2",
+    "locationSpecific": "เขตบางขุนเทียน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 124,
+    "locationGeneral": "อาคารสำนักงานแห่งหนึ่งย่านสีลม",
+    "locationSpecific": "เขตบางรัก",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 125,
+    "locationGeneral": "ตลาดสดบางแค",
+    "locationSpecific": "เขตบางแค",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 126,
+    "locationGeneral": "บ้านพัก ซอยสุขุมวิท 49",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 127,
+    "locationGeneral": "ด่านตรวจชายแดน อ.แม่สาย จ.เชียงราย",
+    "locationSpecific": "จังหวัดเชียงราย",
+    "districtId": null,
+    "provinceId": 14,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 128,
+    "locationGeneral": "ด่านตรวจชายแดน อ.สะเดา จ.สงขลา",
+    "locationSpecific": "จังหวัดสงขลา",
+    "districtId": null,
+    "provinceId": 60,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 129,
+    "locationGeneral": "สวนสาธารณะแห่งหนึ่งในกรุงเทพฯ",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "park"
+  },
+  {
+    "id": 130,
+    "locationGeneral": "สวนสาธารณะเฉลิมพระเกียรติ",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "park"
+  },
+  {
+    "id": 131,
+    "locationGeneral": "ตลาดสดปากเกร็ด",
+    "locationSpecific": "จังหวัดนนทบุรี",
+    "districtId": null,
+    "provinceId": 25,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 132,
+    "locationGeneral": "ตลาดสดคลองเตย",
+    "locationSpecific": "เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 133,
+    "locationGeneral": "ถนนสุขุมวิท (ใกล้สถานี BTS พร้อมพงษ์)",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 134,
+    "locationGeneral": "โกดังเก็บสินค้า A12 นิคมอุตสาหกรรมบางปู",
+    "locationSpecific": "จังหวัดสมุทรปราการ",
+    "districtId": null,
+    "provinceId": 62,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 135,
+    "locationGeneral": "ศูนย์การค้าเอ็มควอเทียร์",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 136,
+    "locationGeneral": "บ้านพัก ซอยรามคำแหง 53",
+    "locationSpecific": "เขตวังทองหลาง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 137,
+    "locationGeneral": "โรงแรมแกรนด์ฮิลล์ สุขุมวิท",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 138,
+    "locationGeneral": "สำนักงานบริษัท ย่านสาทร",
+    "locationSpecific": "เขตสาทร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 139,
+    "locationGeneral": "สนามกีฬาหัวหมาก (หลังซ้อมฟุตบอล)",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 140,
+    "locationGeneral": "ห้างสรรพสินค้าเซ็นทรัลลาดพร้าว (แผนกเครื่องประดับ)",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 141,
+    "locationGeneral": "โรงแรมแห่งหนึ่ง ย่านสุขุมวิท",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 142,
+    "locationGeneral": "คลังสินค้าแห่งหนึ่ง ย่านบางนา-ตราด",
+    "locationSpecific": "จังหวัดสมุทรปราการ",
+    "districtId": null,
+    "provinceId": 62,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 143,
+    "locationGeneral": "สี่แยกเพชรบุรีตัดใหม่",
+    "locationSpecific": "เขตราชเทวี",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 144,
+    "locationGeneral": "สวนสาธารณะ สวนหลวง ร.9",
+    "locationSpecific": "เขตประเวศ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "park"
+  },
+  {
+    "id": 145,
+    "locationGeneral": "ถนนลาดพร้าว (ใกล้เดอะมอลล์บางกะปิ)",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 146,
+    "locationGeneral": "บ้านพัก ซอยสุขุมวิท 63",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 147,
+    "locationGeneral": "ห้างสรรพสินค้าเอ็มควอเทียร์ (แผนกนาฬิกา)",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 148,
+    "locationGeneral": "บ้านเลขที่ 123 ถนนสุขุมวิท ซ.10 เขตคลองเตย กรุงเทพมหานคร",
+    "locationSpecific": "เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 149,
+    "locationGeneral": "ร้านทอง สยามทอง ย่านเยาวราช",
+    "locationSpecific": "เขตสัมพันธวงศ์",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 150,
+    "locationGeneral": "ลานจอดรถสถานีรถไฟฟ้าบีทีเอสอโศก",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 151,
+    "locationGeneral": "ร้านค้าหน้าปากซอยลาดพร้าว 5 แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 152,
+    "locationGeneral": "โรงงานผลิตชิ้นส่วนรถยนต์แห่งหนึ่งในจังหวัดระยอง",
+    "locationSpecific": "จังหวัดระยอง",
+    "districtId": null,
+    "provinceId": 52,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 153,
+    "locationGeneral": "ถนนพระราม 9 (ใกล้สถานี Airport Rail Link มักกะสัน)",
+    "locationSpecific": "เขตราชเทวี",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 154,
+    "locationGeneral": "คอนโดมิเนียมแห่งหนึ่ง ย่านพระราม 9",
+    "locationSpecific": "เขตห้วยขวา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 155,
+    "locationGeneral": "อพาร์ตเมนต์แห่งหนึ่ง ย่านบางซื่อ",
+    "locationSpecific": "เขตบางซื่อ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 156,
+    "locationGeneral": "สวนสาธารณะเฉลิมพระเกียรติ แขวงสวนหลวง เขตสวนหลวง กรุงเทพมหานคร",
+    "locationSpecific": "เขตสวนหลวง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "park"
+  },
+  {
+    "id": 157,
+    "locationGeneral": "ถนนพหลโยธิน ขาออก (ตรงข้ามห้างสรรพสินค้าเซ็นทรัลลาดพร้าว)",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 158,
+    "locationGeneral": "คอนโดมิเนียมสุขสบาย เรสซิเดนซ์ ชั้น 8",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 159,
+    "locationGeneral": "ปั๊มน้ำมัน ปตท. สาขาถนนรัชดาภิเษก",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 160,
+    "locationGeneral": "ห้างสรรพสินค้าเอ็มควอเทียร์ (แผนกเครื่องประดับ)",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 161,
+    "locationGeneral": "ซอยเล็กๆ ใกล้ตลาดนัดจตุจักร",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 162,
+    "locationGeneral": "บ้านเลขที่ 45/22 หมู่บ้านพฤกษาภิรมย์",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 163,
+    "locationGeneral": "ร้านเกมออนไลน์แห่งหนึ่ง ย่านบางกะปิ",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 164,
+    "locationGeneral": "ศูนย์การค้าเมกาบางนา",
+    "locationSpecific": "จังหวัดสมุทรปราการ",
+    "districtId": null,
+    "provinceId": 62,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 165,
+    "locationGeneral": "โรงงานผลิตเครื่องใช้ไฟฟ้าแห่งหนึ่งในจังหวัดสมุทรปราการ",
+    "locationSpecific": "จังหวัดสมุทรปราการ",
+    "districtId": null,
+    "provinceId": 62,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 166,
+    "locationGeneral": "บ้านพักแห่งหนึ่งในจังหวัดเชียงใหม่",
+    "locationSpecific": "จังหวัดเชียงใหม่",
+    "districtId": null,
+    "provinceId": 15,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 167,
+    "locationGeneral": "ร้านสะดวกซื้อ 7-Eleven สาขาซอย 101/1",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 168,
+    "locationGeneral": "อพาร์ตเมนต์ สบายดีคอนโด ห้อง 501",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 169,
+    "locationGeneral": "บ้านพัก ซอยรามคำแหง 29",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 170,
+    "locationGeneral": "บริษัท รุ่งโรจน์ การค้า ย่านบางรัก",
+    "locationSpecific": "เขตบางรัก",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 171,
+    "locationGeneral": "ถนนเพชรเกษม (ใกล้ซีคอนบางแค)",
+    "locationSpecific": "เขตภาษีเจริญ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 172,
+    "locationGeneral": "สถานีรถไฟฟ้าบีทีเอสชิดลม",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 173,
+    "locationGeneral": "ตลาดนัดจตุจักร โครงการ 25",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 174,
+    "locationGeneral": "คอนโดมิเนียม ลีฟวิ่ง เพลส ห้อง 1203",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 175,
+    "locationGeneral": "ร้านค้าปลีก บิ๊กซี ซูเปอร์เซ็นเตอร์ สาขารามคำแหง",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 176,
+    "locationGeneral": "ถนนรัชดาภิเษก (ใกล้ MRT ศูนย์วัฒนธรรมฯ)",
+    "locationSpecific": "เขตห้วยขวาง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 177,
+    "locationGeneral": "สนามกีฬาแห่งชาติ",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 178,
+    "locationGeneral": "สวนสัตว์เปิดเขาเขียว",
+    "locationSpecific": "จังหวัดชลบุรี",
+    "districtId": null,
+    "provinceId": 10,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "park"
+  },
+  {
+    "id": 179,
+    "locationGeneral": "บริษัท เวิลด์ทัวร์ จำกัด ย่านบางกะปิ",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 180,
+    "locationGeneral": "ซอยสุขุมวิท 49 (ใกล้ปากซอย)",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 181,
+    "locationGeneral": "ลานจอดรถห้างสรรพสินค้าเซ็นทรัลเวสต์เกต",
+    "locationSpecific": "จังหวัดนนทบุรี",
+    "districtId": null,
+    "provinceId": 25,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 182,
+    "locationGeneral": "ตลาดสดบางใหญ่",
+    "locationSpecific": "จังหวัดนนทบุรี",
+    "districtId": null,
+    "provinceId": 25,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 183,
+    "locationGeneral": "ร้านทอง ทองสิริ ย่านบางนา",
+    "locationSpecific": "เขตบางนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 184,
+    "locationGeneral": "บ้านพัก ซอยอ่อนนุช 17",
+    "locationSpecific": "เขตสวนหลวง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 185,
+    "locationGeneral": "บาร์ ไนท์ไลฟ์ ย่านทองหล่อ",
+    "locationSpecific": "เขตวัฒนา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 186,
+    "locationGeneral": "บริษัท ขนส่งด่วน เอ็กซ์เพรส สำนักงานใหญ่",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 187,
+    "locationGeneral": "ซอยลาดพร้าว 87 (ใกล้ร้านสะดวกซื้อ)",
+    "locationSpecific": "เขตวังทองหลาง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 188,
+    "locationGeneral": "สถาบันสอนภาษาแห่งหนึ่ง ย่านสามย่านมิตรทาวน์",
+    "locationSpecific": "เขตปทุมวัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 189,
+    "locationGeneral": "บ้านพัก หมู่บ้านเดอะพาร์ค ถนนราชพฤกษ์",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 190,
+    "locationGeneral": "ลานจอดรถห้างสรรพสินค้าเซ็นทรัลปิ่นเกล้า",
+    "locationSpecific": "เขตบางกอกน้อย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 191,
+    "locationGeneral": "ตลาดสดนนทบุรี",
+    "locationSpecific": "จังหวัดนนทบุรี",
+    "districtId": null,
+    "provinceId": 25,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 192,
+    "locationGeneral": "ถนนศรีนครินทร์ ซอย 50",
+    "locationSpecific": "เขตประเวศ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 193,
+    "locationGeneral": "ร้านกาแฟ คาเฟ่ อินเลิฟ ซอยอารีย์สัมพันธ์",
+    "locationSpecific": "เขตพญาไท",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 194,
+    "locationGeneral": "ลานจอดรถสวนสาธารณะเบญจกิติ",
+    "locationSpecific": "เขตคลองเตย",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "park"
+  },
+  {
+    "id": 195,
+    "locationGeneral": "บริษัท คอนซัลท์ติ้ง วัน ย่านสาทร",
+    "locationSpecific": "เขตสาทร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 196,
+    "locationGeneral": "ถนนรัชดาภิเษก (ใกล้สถานี MRT ลาดพร้าว)",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 197,
+    "locationGeneral": "โรงแรม แกรนด์พลาซ่า สุขุมวิท",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "building"
+  },
+  {
+    "id": 198,
+    "locationGeneral": "ท่าอากาศยานดอนเมือง (อาคารผู้โดยสารขาเข้า)",
+    "locationSpecific": "เขตดอนเมือง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 199,
+    "locationGeneral": "ตลาดนัดกลางคืน สายลม หน้าเซ็นทรัลพระราม 2",
+    "locationSpecific": "เขตบางขุนเทียน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 200,
+    "locationGeneral": "ถนนบรมราชชนนี ซอย 50",
+    "locationSpecific": "เขตตลิ่งชัน",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 201,
+    "locationGeneral": "โรงเรียนอนุบาล บ้านหนูน้อย แห่งหนึ่งในกรุงเทพฯ",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 202,
+    "locationGeneral": "ลานจอดรถซุปเปอร์มาร์เก็ต โลตัส เอ็กซ์เพรส",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 203,
+    "locationGeneral": "ตลาดสดบางกะปิ",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 204,
+    "locationGeneral": "ถนนพระราม 3 ใกล้สะพานภูมิพล",
+    "locationSpecific": "เขตยานนาวา",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 205,
+    "locationGeneral": "บ้านพัก ซอยรามคำแหง 50",
+    "locationSpecific": "เขตบางกะปิ",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 206,
+    "locationGeneral": "อพาร์ตเมนต์ แฮปปี้โฮม ห้อง 303",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 207,
+    "locationGeneral": "บริษัท เอเชียทัวร์ จำกัด ย่านดินแดง",
+    "locationSpecific": "เขตดินแดง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 208,
+    "locationGeneral": "ถนนพหลโยธิน (ใกล้โรงพยาบาลภูมิพลฯ)",
+    "locationSpecific": "เขตสายไหม",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 209,
+    "locationGeneral": "ร้านอาหาร สเต๊กเฮาส์ ย่านอารีย์",
+    "locationSpecific": "เขตพญาไท",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 210,
+    "locationGeneral": "ตลาดนัดเลียบด่วน รามอินทรา",
+    "locationSpecific": "เขตลาดพร้าว",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "mall"
+  },
+  {
+    "id": 211,
+    "locationGeneral": "คอนโดมิเนียม แกรนด์วิว ห้อง 801",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "residence"
+  },
+  {
+    "id": 212,
+    "locationGeneral": "ร้านค้าปลีก โลตัส สุขาภิบาล 3",
+    "locationSpecific": "ข้อมูลไม่เพียงพอที่จะระบุเขต",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  },
+  {
+    "id": 213,
+    "locationGeneral": "ถนนประชาชื่น (ใกล้แยกพงษ์เพชร)",
+    "locationSpecific": "เขตจตุจักร",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "street"
+  },
+  {
+    "id": 214,
+    "locationGeneral": "สวนสัตว์เชียงใหม่",
+    "locationSpecific": "จังหวัดเชียงใหม่",
+    "districtId": null,
+    "provinceId": 15,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "park"
+  },
+  {
+    "id": 215,
+    "locationGeneral": "ร้านอาหาร ครัวเมืองใหม่ ย่านสุทธิสาร",
+    "locationSpecific": "เขตดินแดง",
+    "districtId": null,
+    "provinceId": 1,
+    "latitude": null,
+    "longitude": null,
+    "locationType": "other"
+  }
+]
