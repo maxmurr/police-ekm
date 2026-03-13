@@ -1,6 +1,7 @@
 import { generateText, ModelMessage, Output } from "ai";
 import { z } from "zod";
 import { getRetryableModel } from "@/lib/ai/container";
+import { logger } from "@/lib/logger";
 import { QueryResult, QueryUpdate, executeSingleQuery } from "./query-executor";
 import { PlannedQuery } from "./query-planner";
 import { EVALUATE_COMPLETENESS_SYSTEM_PROMPT, FOLLOW_UP_QUERY_SYSTEM_PROMPT } from "./prompts";
@@ -61,7 +62,7 @@ ${r.success && r.data && r.data.length > 0 ? `Sample: ${JSON.stringify(r.data[0]
     )
     .join("\n");
 
-  const { output } = (await generateText({
+  const result = await generateText({
     model: getRetryableModel(),
     // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Zod v4 type incompatibility with AI SDK Output API
     output: Output.object({ schema: evaluateCompletenessSchema as any }),
@@ -85,7 +86,18 @@ Evaluate if these results sufficiently answer the question.`,
       recordInputs: true,
       recordOutputs: true,
     },
-  })) as { output: CompletenessResult };
+  });
+
+  const { output } = result as unknown as { output: CompletenessResult };
+  logger.debug(
+    {
+      step: "evaluate-completeness",
+      inputTokens: result.usage.inputTokens,
+      outputTokens: result.usage.outputTokens,
+      totalTokens: result.usage.totalTokens,
+    },
+    "ai step completed",
+  );
 
   return output;
 }
@@ -127,6 +139,16 @@ ${suggestedQuery ? `Suggested Focus: ${suggestedQuery}` : ""}`;
       recordOutputs: true,
     },
   });
+
+  logger.debug(
+    {
+      step: "follow-up-query-generator",
+      inputTokens: result.usage.inputTokens,
+      outputTokens: result.usage.outputTokens,
+      totalTokens: result.usage.totalTokens,
+    },
+    "ai step completed",
+  );
 
   return {
     sql: result.text.trim(),

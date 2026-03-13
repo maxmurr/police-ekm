@@ -1,5 +1,6 @@
 import { generateText, ModelMessage } from "ai";
 import { getRetryableModel } from "@/lib/ai/container";
+import { logger } from "@/lib/logger";
 import { SQL_GENERATOR_SYSTEM_PROMPT, formatRetryFeedback } from "./prompts";
 import { withBaseContext } from "../base-context";
 
@@ -37,6 +38,16 @@ export async function sqlGenerator(opts: SqlGeneratorOptions): Promise<string> {
       recordOutputs: true,
     },
   });
+
+  logger.debug(
+    {
+      step: "sql-generator",
+      inputTokens: generateSQLQueryResult.usage.inputTokens,
+      outputTokens: generateSQLQueryResult.usage.outputTokens,
+      totalTokens: generateSQLQueryResult.usage.totalTokens,
+    },
+    "ai step completed",
+  );
 
   return generateSQLQueryResult.text;
 }

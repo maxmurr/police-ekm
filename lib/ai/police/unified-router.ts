@@ -26,7 +26,7 @@ export async function unifiedRouter(opts: UnifiedRouterOptions): Promise<RouterR
   const systemPrompt = withBaseContext(UNIFIED_ROUTER_SYSTEM_PROMPT);
 
   try {
-    const { output } = (await generateText({
+    const result = await generateText({
       model: getRetryableModel(),
       // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Zod v4 type incompatibility with AI SDK Output API
       output: Output.object({ schema: unifiedRouterSchema as any }),
@@ -39,7 +39,18 @@ export async function unifiedRouter(opts: UnifiedRouterOptions): Promise<RouterR
         recordInputs: true,
         recordOutputs: true,
       },
-    })) as { output: UnifiedRouterResult };
+    });
+
+    const { output } = result as unknown as { output: UnifiedRouterResult };
+    logger.debug(
+      {
+        step: "unified-router",
+        inputTokens: result.usage.inputTokens,
+        outputTokens: result.usage.outputTokens,
+        totalTokens: result.usage.totalTokens,
+      },
+      "ai step completed",
+    );
 
     const { queryType, queries, reasoning } = output;
 

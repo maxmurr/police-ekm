@@ -1,6 +1,7 @@
 import { generateText, ModelMessage, Output } from "ai";
 import { z } from "zod";
 import { getRetryableModel } from "@/lib/ai/container";
+import { logger } from "@/lib/logger";
 import { SQL_GENERATOR_SYSTEM_PROMPT } from "./prompts";
 import { withBaseContext } from "../base-context";
 import { queryPlanSchema } from "./schema";
@@ -95,7 +96,7 @@ Generate a structured query plan with 1-5 queries. Each query must:
 - Have a clear purpose and priority
 `);
 
-  const { output } = (await generateText({
+  const result = await generateText({
     model: getRetryableModel(),
     // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Zod v4 type incompatibility with AI SDK Output API
     output: Output.object({ schema: queryPlanSchema as any }),
@@ -108,7 +109,18 @@ Generate a structured query plan with 1-5 queries. Each query must:
       recordInputs: true,
       recordOutputs: true,
     },
-  })) as { output: QueryPlanResult };
+  });
+
+  const { output } = result as unknown as { output: QueryPlanResult };
+  logger.debug(
+    {
+      step: "query-planner",
+      inputTokens: result.usage.inputTokens,
+      outputTokens: result.usage.outputTokens,
+      totalTokens: result.usage.totalTokens,
+    },
+    "ai step completed",
+  );
 
   return output.queries.sort((a, b) => a.priority - b.priority);
 }

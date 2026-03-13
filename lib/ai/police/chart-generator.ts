@@ -110,7 +110,7 @@ Return your chart configurations with appropriate color palettes and reasoning.
   `.trim();
 
   try {
-    const { output } = (await generateText({
+    const generateResult = await generateText({
       model: getRetryableModel(),
       system: systemPrompt,
       messages: [{ role: "user", content: prompt }],
@@ -123,7 +123,18 @@ Return your chart configurations with appropriate color palettes and reasoning.
         recordInputs: true,
         recordOutputs: true,
       },
-    })) as { output: ChartGeneratorResult };
+    });
+
+    const { output } = generateResult as unknown as { output: ChartGeneratorResult };
+    logger.debug(
+      {
+        step: "chart-generator",
+        inputTokens: generateResult.usage.inputTokens,
+        outputTokens: generateResult.usage.outputTokens,
+        totalTokens: generateResult.usage.totalTokens,
+      },
+      "ai step completed",
+    );
 
     // Attach the actual data based on resultIndex
     const chartsWithData = output.charts

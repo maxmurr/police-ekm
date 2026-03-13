@@ -199,6 +199,17 @@ export async function POST(req: Request) {
               writer.write(chunk as any);
             }
 
+            const informationAgentUsage = await streamTextResult.usage;
+            requestLogger.debug(
+              {
+                step: "information-agent",
+                inputTokens: informationAgentUsage.inputTokens,
+                outputTokens: informationAgentUsage.outputTokens,
+                totalTokens: informationAgentUsage.totalTokens,
+              },
+              "ai step completed",
+            );
+
             writer.write({
               type: "data-chart-generation-status",
               data: { state: "generating" },
@@ -266,6 +277,18 @@ export async function POST(req: Request) {
             sendStart: false,
             sendReasoning: false,
           }),
+        );
+
+        const streamUsage = await streamTextResult.usage;
+        const streamStep = routerResult.queryType === "general" ? "general-agent" : "information-agent";
+        requestLogger.debug(
+          {
+            step: streamStep,
+            inputTokens: streamUsage.inputTokens,
+            outputTokens: streamUsage.outputTokens,
+            totalTokens: streamUsage.totalTokens,
+          },
+          "ai step completed",
         );
 
         emitEvent(200);

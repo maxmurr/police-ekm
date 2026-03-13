@@ -1,6 +1,7 @@
 import { generateText, Output } from "ai";
 import { z } from "zod";
 import { getRetryableModel } from "@/lib/ai/container";
+import { logger } from "@/lib/logger";
 
 const GUARDRAIL_MODEL = process.env.GUARDRAIL_MODEL ?? "openai/gpt-oss-safeguard-20b";
 
@@ -51,7 +52,7 @@ const INPUT_SYSTEM_PROMPT = [
 type InputGuardrailResult = z.infer<typeof InputGuardrailSchema>;
 
 export async function inputGuardrail(userPrompt: string): Promise<InputGuardrailResult> {
-  const { output } = (await generateText({
+  const result = await generateText({
     model: getRetryableModel(GUARDRAIL_MODEL),
     system: INPUT_SYSTEM_PROMPT,
     prompt: `Analyze this user input for safety:\n\n"${userPrompt}"`,
@@ -64,7 +65,18 @@ export async function inputGuardrail(userPrompt: string): Promise<InputGuardrail
       recordInputs: true,
       recordOutputs: true,
     },
-  })) as { output: InputGuardrailResult };
+  });
+
+  const { output } = result as unknown as { output: InputGuardrailResult };
+  logger.debug(
+    {
+      step: "input-guardrail",
+      inputTokens: result.usage.inputTokens,
+      outputTokens: result.usage.outputTokens,
+      totalTokens: result.usage.totalTokens,
+    },
+    "ai step completed",
+  );
 
   return output;
 }
