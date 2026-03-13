@@ -191,6 +191,7 @@ export async function POST(req: Request) {
 
             const agentStream = streamTextResult.toUIMessageStream({
               sendStart: false,
+              sendReasoning: false,
             });
 
             for await (const chunk of agentStream) {
@@ -263,6 +264,7 @@ export async function POST(req: Request) {
         writer.merge(
           streamTextResult.toUIMessageStream({
             sendStart: false,
+            sendReasoning: false,
           }),
         );
 

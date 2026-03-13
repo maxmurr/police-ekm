@@ -1,7 +1,8 @@
 import { generateText, Output } from "ai";
 import { z } from "zod";
-import { getRetryableModel } from "../openrouter";
+import { getRetryableModel } from "@/lib/ai/container";
 import { configSchema } from "@/lib/types";
+import { logger } from "@/lib/logger";
 import { QueryResult } from "./query-executor";
 import { withBaseContext } from "../base-context";
 import { CHART_GENERATOR_SYSTEM_PROMPT } from "./prompts";
@@ -27,8 +28,12 @@ export type ChartGeneratorOutput = {
 export async function chartGenerator(opts: ChartGeneratorOptions): Promise<ChartGeneratorOutput> {
   const systemPrompt = withBaseContext(CHART_GENERATOR_SYSTEM_PROMPT);
 
-  const successfulResults = opts.results.filter((r) => {
+  const successfulResults = opts.results.filter((r, index) => {
     if (!r.success || !r.data || r.data.length === 0) {
+      logger.debug(
+        { resultIndex: index, success: r.success, hasData: !!r.data, rowCount: r.data?.length ?? 0 },
+        "chart-generator: filtered out result (no data or failed query)",
+      );
       return false;
     }
 
@@ -37,20 +42,27 @@ export async function chartGenerator(opts: ChartGeneratorOptions): Promise<Chart
     if (data.length === 1) {
       const keys = Object.keys(data[0]);
       if (keys.length <= 2) {
+        logger.debug(
+          { resultIndex: index, rowCount: 1, columnCount: keys.length, columns: keys },
+          "chart-generator: filtered out result (single row with ≤2 columns)",
+        );
         return false;
       }
     }
 
-    // Need at least 2 rows for meaningful visualization
     if (data.length < 2) {
+      logger.debug(
+        { resultIndex: index, rowCount: data.length },
+        "chart-generator: filtered out result (fewer than 2 rows)",
+      );
       return false;
     }
 
     return true;
   });
 
-  // If no successful results or all empty, return no charts
   if (successfulResults.length === 0) {
+    logger.warn({ totalResults: opts.results.length }, "chart-generator: no results suitable for visualization");
     return {
       charts: [],
       summary:
@@ -135,7 +147,8 @@ Return your chart configurations with appropriate color palettes and reasoning.
       charts: chartsWithData,
       summary: output.summary,
     };
-  } catch {
+  } catch (error) {
+    logger.error({ error }, "chart-generator: failed to generate charts");
     return {
       charts: [],
       summary: "Chart generation failed - returning no charts",

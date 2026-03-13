@@ -53,7 +53,12 @@ function buildEndpointMap(): Map<string, VllmEndpoint> {
         name: `vllm-${model}`,
         baseURL,
         apiKey: VLLM_API_KEY,
+        supportsStructuredOutputs: true,
         fetch: fetchWithTimeout,
+        transformRequestBody: (body) => ({
+          ...body,
+          chat_template_kwargs: { enable_thinking: false },
+        }),
       }),
     });
   }
