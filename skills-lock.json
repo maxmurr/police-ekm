@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "index-knowledge": {
+      "source": "dmmulroy/.dotfiles",
+      "sourceType": "github",
+      "computedHash": "0882b222a89c593250c5f494a73f3c35147451f1447846cf25bc181d748094f1"
+    }
+  }
+}
