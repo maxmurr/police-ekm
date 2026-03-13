@@ -23,6 +23,8 @@ const prefixes = {
   incidentReportLegacy: "ilg",
   // St. Gabriel schema prefixes
   stgabrielStudent: "stg",
+  // Cache prefixes
+  queryResultCache: "qrc",
 };
 
 interface GenerateIdOptions {

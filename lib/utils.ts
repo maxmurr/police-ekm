@@ -98,8 +98,17 @@ export function isQueryResultEmpty(data: unknown[] | undefined): boolean {
   return allNull;
 }
 
+interface SummarizedData {
+  originalPurpose: string;
+  originalRowCount: number;
+  summaryData: unknown[];
+  summarySql: string;
+}
+
 /**
- * Format multiple query results for the information agent
+ * Format multiple query results for the information agent.
+ * When summaries are provided, uses summarized data for large results
+ * to keep the prompt within context limits.
  */
 export function formatMultipleResultsForAgent(
   results: Array<{
@@ -108,7 +117,10 @@ export function formatMultipleResultsForAgent(
     success: boolean;
     error?: string;
   }>,
+  summaries?: SummarizedData[],
 ): string {
+  const summaryMap = new Map((summaries ?? []).map((s) => [s.originalPurpose, s]));
+
   const sections = results.map((result, index) => {
     const header = `--- Query ${index + 1}: ${result.purpose} ---`;
 
@@ -118,6 +130,12 @@ export function formatMultipleResultsForAgent(
 
     if (isQueryResultEmpty(result.data)) {
       return `${header}\nStatus: Success\nResults: No data found`;
+    }
+
+    const summary = summaryMap.get(result.purpose);
+    if (summary && summary.summaryData.length > 0) {
+      const toon = convertToTOON(summary.summaryData);
+      return `${header}\nStatus: Success\nSummarized from ${summary.originalRowCount} rows:\n${toon}`;
     }
 
     const toon = convertToTOON(result.data || []);

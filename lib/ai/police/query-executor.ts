@@ -1,7 +1,11 @@
 import db from "@/lib/db";
 import { sql } from "drizzle-orm";
 import { validateSQLQuery } from "@/lib/utils";
+import { cacheQueryResult } from "@/lib/cache/query-result-cache";
+import { logger } from "@/lib/logger";
 import { PlannedQuery } from "./query-planner";
+
+const PREVIEW_ROW_LIMIT = 5;
 
 export interface QueryResult {
   sql: string;
@@ -11,6 +15,8 @@ export interface QueryResult {
   data?: unknown[];
   error?: string;
   executionTimeMs?: number;
+  cacheKey?: string;
+  cacheMetadata?: { columns: string[]; rowCount: number };
 }
 
 export interface QueryUpdate {
@@ -18,7 +24,10 @@ export interface QueryUpdate {
   sql: string;
   purpose: string;
   state: "running" | "completed" | "error";
-  data?: unknown[];
+  previewData?: unknown[];
+  cacheKey?: string;
+  rowCount?: number;
+  columns?: string[];
   error?: string;
   executionTimeMs?: number;
 }
@@ -74,12 +83,30 @@ export async function queryExecutor(opts: QueryExecutorOptions): Promise<QueryRe
       const executionTime = Date.now() - startTime;
       result.executionTimeMs = executionTime;
 
+      try {
+        const cached = await cacheQueryResult({
+          data: dbResult.rows,
+          sql: query.sql,
+          purpose: query.purpose,
+        });
+        result.cacheKey = cached.cacheKey;
+        result.cacheMetadata = cached.metadata;
+      } catch (cacheError) {
+        logger.warn({ error: cacheError, queryId }, "failed to cache query result, continuing without cache");
+      }
+
+      const previewData = dbResult.rows.slice(0, PREVIEW_ROW_LIMIT);
+      const columns = dbResult.rows.length > 0 ? Object.keys(dbResult.rows[0] as Record<string, unknown>) : [];
+
       onQueryUpdate?.({
         queryId,
         sql: query.sql,
         purpose: query.purpose,
         state: "completed",
-        data: dbResult.rows,
+        previewData,
+        cacheKey: result.cacheKey,
+        rowCount: dbResult.rows.length,
+        columns,
         executionTimeMs: executionTime,
       });
 

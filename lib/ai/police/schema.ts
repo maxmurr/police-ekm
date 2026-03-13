@@ -73,3 +73,12 @@ export const unifiedRouterSchema = z.object({
 });
 
 export type UnifiedRouterResult = z.infer<typeof unifiedRouterSchema>;
+
+export const dataSummarizerSchema = z.object({
+  summarySql: z
+    .string()
+    .describe(
+      "A PostgreSQL SELECT query that wraps the original SQL as a subquery and produces aggregated summary results (max 30 rows)",
+    ),
+  reasoning: z.string().describe("Brief explanation of the aggregation strategy chosen"),
+});

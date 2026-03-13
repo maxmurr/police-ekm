@@ -13,9 +13,10 @@ import {
   resultSynthesizer,
   shouldSkipCompletenessEvaluation,
   chartGenerator,
+  dataSummarizer,
 } from "@/lib/ai/police";
 import { streamInformationAgent, streamGeneralAgent } from "@/lib/ai/police/agents";
-import { Config, Result } from "@/lib/types";
+import { Config } from "@/lib/types";
 import { logger } from "@/lib/logger";
 import { inputGuardrail } from "@/lib/ai/input-guardrail";
 import { createWideEvent, finalizeEvent } from "@/lib/wide-event";
@@ -29,7 +30,10 @@ export type QueryExecutionUpdate = {
   sql: string;
   purpose: string;
   state: "running" | "completed" | "error";
-  data?: unknown[];
+  previewData?: unknown[];
+  cacheKey?: string;
+  rowCount?: number;
+  columns?: string[];
   error?: string;
   executionTimeMs?: number;
 };
@@ -42,7 +46,8 @@ export type MyMessage = UIMessage<{
   handoff: "information" | "general";
   "generate-chart": {
     config: Config;
-    data: Result[];
+    cacheKey: string;
+    sql: string;
   };
   "query-execution": QueryExecutionUpdate;
   "chart-generation-status": ChartGenerationStatus;
@@ -174,7 +179,12 @@ export async function POST(req: Request) {
               };
             }
 
-            const formattedResults = formatMultipleResultsForAgent(finalResults);
+            const summaries = await dataSummarizer({
+              results: finalResults,
+              userQuestion: userMessage,
+            });
+
+            const formattedResults = formatMultipleResultsForAgent(finalResults, summaries);
 
             streamTextResult = streamInformationAgent({
               prompt: `
@@ -224,7 +234,11 @@ export async function POST(req: Request) {
               for (const chart of chartGeneratorResult.charts) {
                 writer.write({
                   type: "data-generate-chart",
-                  data: chart,
+                  data: {
+                    config: chart.config,
+                    cacheKey: chart.cacheKey,
+                    sql: chart.sql,
+                  },
                 });
               }
               writer.write({

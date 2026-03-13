@@ -28,29 +28,22 @@ import type { Config, Result } from "@/lib/types";
 import { transformDataForMultiLineChart } from "@/lib/rechart-format";
 import { createCompactTickFormatter, formatNumber, toTitleCase } from "@/lib/utils";
 import { useChartPalette, type PaletteName } from "@/hooks/use-chart-palette";
+import { useCachedChartData } from "@/hooks/use-cached-chart-data";
+import { BarChart3 } from "lucide-react";
 
-/**
- * Props for the DynamicChart component
- *
- * @example
- * ```tsx
- * // Use default "orchid" palette
- * <DynamicChart data={chartData} config={chartConfig} />
- *
- * // Use a specific palette
- * <DynamicChart data={chartData} config={chartConfig} paletteName="ocean" />
- * ```
- *
- * Available palettes: "ocean", "orchid", "emerald", "spectrum", "sunset", "vivid"
- */
 interface DynamicChartProps {
-  data: Result[];
+  data?: Result[];
+  cacheKey?: string;
+  sql?: string;
   config: Config;
   paletteName?: PaletteName;
 }
 
-export function DynamicChart({ data, config, paletteName = "orchid" }: DynamicChartProps) {
-  // Helper function to ensure numeric values in data
+export function DynamicChart({ data: directData, cacheKey, sql, config, paletteName = "orchid" }: DynamicChartProps) {
+  const { data: cachedData, isLoading, error } = useCachedChartData(cacheKey ?? "", sql ?? "");
+
+  const data = directData ?? cachedData;
+
   const normalizeNumericData = React.useCallback(
     (
       data: Array<Record<string, string | number | null>>,
@@ -214,7 +207,39 @@ export function DynamicChart({ data, config, paletteName = "orchid" }: DynamicCh
     };
   }, [chartData, config.yKeys, config.lineCategories, config.type, config.multipleLines]);
 
-  // Handle empty data - return null to not render anything
+  if (cacheKey && isLoading) {
+    return (
+      <Card>
+        <CardHeader>
+          <CardTitle>{config.title}</CardTitle>
+          <CardDescription>{config.description}</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="flex h-[400px] animate-pulse items-center justify-center gap-2 text-muted-foreground">
+            <BarChart3 className="h-5 w-5" />
+            <span>Loading chart data...</span>
+          </div>
+        </CardContent>
+      </Card>
+    );
+  }
+
+  if (cacheKey && error) {
+    return (
+      <Card>
+        <CardHeader>
+          <CardTitle>{config.title}</CardTitle>
+          <CardDescription>{config.description}</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="flex h-[400px] items-center justify-center text-muted-foreground">
+            <span>{error}</span>
+          </div>
+        </CardContent>
+      </Card>
+    );
+  }
+
   if (!data || data.length === 0 || chartData.length === 0) {
     return null;
   }

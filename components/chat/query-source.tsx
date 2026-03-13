@@ -32,7 +32,7 @@ const extractColumns = (data: unknown[] | undefined): string[] => {
 const PREVIEW_ROW_LIMIT = 5;
 
 const formatCellValue = (value: unknown): string => {
-  if (value == null) return "—";
+  if (value == null) return "\u2014";
   if (typeof value === "object") return JSON.stringify(value);
   return String(value);
 };
@@ -47,7 +47,7 @@ export const QuerySource = ({ queries, className }: QuerySourceProps) => {
 
   if (queries.length === 0) return null;
 
-  const totalRows = queries.reduce((sum, q) => sum + (Array.isArray(q.data) ? q.data.length : 0), 0);
+  const totalRows = queries.reduce((sum, q) => sum + (q.rowCount ?? 0), 0);
 
   return (
     <Collapsible open={open} onOpenChange={setOpen} className={cn("not-prose", className)}>
@@ -77,8 +77,9 @@ export const QuerySource = ({ queries, className }: QuerySourceProps) => {
       >
         {queries.map((query) => {
           const tables = extractTableNames(query.sql);
-          const columns = extractColumns(query.data);
-          const rowCount = Array.isArray(query.data) ? query.data.length : 0;
+          const previewData = query.previewData;
+          const columns = query.columns ?? extractColumns(previewData);
+          const rowCount = query.rowCount ?? 0;
 
           return (
             <div key={query.queryId} className="space-y-2">
@@ -99,7 +100,7 @@ export const QuerySource = ({ queries, className }: QuerySourceProps) => {
                   ))}
                 </p>
               )}
-              {columns.length > 0 && (
+              {previewData && columns.length > 0 && (
                 <div className="overflow-x-auto rounded-md border">
                   <table className="w-full text-xs">
                     <thead>
@@ -112,7 +113,7 @@ export const QuerySource = ({ queries, className }: QuerySourceProps) => {
                       </tr>
                     </thead>
                     <tbody>
-                      {(query.data as Record<string, unknown>[]).slice(0, PREVIEW_ROW_LIMIT).map((row, rowIdx) => (
+                      {(previewData as Record<string, unknown>[]).slice(0, PREVIEW_ROW_LIMIT).map((row, rowIdx) => (
                         <tr key={rowIdx} className="border-b last:border-b-0">
                           {columns.map((col) => (
                             <td

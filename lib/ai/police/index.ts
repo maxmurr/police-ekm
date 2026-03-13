@@ -4,3 +4,4 @@ export * from "./query-planner";
 export * from "./query-executor";
 export * from "./result-synthesizer";
 export * from "./chart-generator";
+export * from "./data-summarizer";

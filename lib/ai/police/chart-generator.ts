@@ -13,15 +13,15 @@ interface ChartGeneratorOptions {
   userQuestion: string;
 }
 
-// Extended type for the actual return value with data attached
-export type ChartWithData = {
-  data: Record<string, string | number>[];
+export type ChartWithCacheKey = {
+  cacheKey: string;
+  sql: string;
   config: z.infer<typeof configSchema>;
   reasoning: string;
 };
 
 export type ChartGeneratorOutput = {
-  charts: ChartWithData[];
+  charts: ChartWithCacheKey[];
   summary?: string;
 };
 
@@ -70,7 +70,6 @@ export async function chartGenerator(opts: ChartGeneratorOptions): Promise<Chart
     };
   }
 
-  // Prepare formatted results for the agent
   const formattedResults = successfulResults
     .map((result, index) => {
       const data = result.data as Record<string, string | number>[];
@@ -136,26 +135,30 @@ Return your chart configurations with appropriate color palettes and reasoning.
       "ai step completed",
     );
 
-    // Attach the actual data based on resultIndex
-    const chartsWithData = output.charts
+    const chartsWithCacheKey = output.charts
       .map((chart) => {
         const resultIndex = chart.resultIndex;
         const result = successfulResults[resultIndex];
 
-        if (!result || !result.data) {
+        if (!result || !result.cacheKey) {
+          logger.warn(
+            { resultIndex, hasCacheKey: !!result?.cacheKey },
+            "chart-generator: result missing cache key, skipping chart",
+          );
           return null;
         }
 
         return {
-          data: result.data as Record<string, string | number>[],
+          cacheKey: result.cacheKey,
+          sql: result.sql,
           config: chart.config,
           reasoning: chart.reasoning,
-        };
+        } satisfies ChartWithCacheKey;
       })
-      .filter((chart) => chart !== null);
+      .filter((chart): chart is ChartWithCacheKey => chart !== null);
 
     return {
-      charts: chartsWithData,
+      charts: chartsWithCacheKey,
       summary: output.summary,
     };
   } catch (error) {

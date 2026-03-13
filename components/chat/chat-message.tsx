@@ -6,7 +6,7 @@ import { useChatError, useChatMessages, useChatStatus } from "@ai-sdk-tools/stor
 import { BarChart3, CircleAlert } from "lucide-react";
 import { DynamicChart } from "@/components/chat/dynamic-chart";
 import { MyMessage, QueryExecutionUpdate, ChartGenerationStatus } from "@/app/api/chat/police/route";
-import { Config, Result } from "@/lib/types";
+import { Config } from "@/lib/types";
 import { useTraceId } from "@/lib/trace-id-context";
 import { shouldShowLoadingShimmer } from "@/lib/utils";
 import BounceLoader from "./bounce-loader";
@@ -57,13 +57,15 @@ export function ChatMessage() {
                   case "data-generate-chart": {
                     const chartData = part.data as {
                       config: Config;
-                      data: Result[];
+                      cacheKey: string;
+                      sql: string;
                     };
 
                     return (
                       <div key={`${message.id}-${i}`} className="mt-6 mb-6">
                         <DynamicChart
-                          data={chartData.data}
+                          cacheKey={chartData.cacheKey}
+                          sql={chartData.sql}
                           config={chartData.config}
                           paletteName={chartData.config.paletteName || "sunset"}
                         />
