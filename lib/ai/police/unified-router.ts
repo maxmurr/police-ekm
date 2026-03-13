@@ -1,5 +1,5 @@
 import { generateText, ModelMessage, Output } from "ai";
-import { getRetryableModel } from "../openrouter";
+import { getRetryableModel } from "@/lib/ai/container";
 import { UNIFIED_ROUTER_SYSTEM_PROMPT } from "./prompts";
 import { withBaseContext } from "../base-context";
 import { unifiedRouterSchema, type UnifiedRouterResult } from "./schema";

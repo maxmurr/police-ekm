@@ -1,5 +1,5 @@
 import { generateText, ModelMessage } from "ai";
-import { getRetryableModel } from "../openrouter";
+import { getRetryableModel } from "@/lib/ai/container";
 import { SQL_GENERATOR_SYSTEM_PROMPT, formatRetryFeedback } from "./prompts";
 import { withBaseContext } from "../base-context";
 

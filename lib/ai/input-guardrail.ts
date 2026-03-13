@@ -1,6 +1,8 @@
 import { generateText, Output } from "ai";
 import { z } from "zod";
-import { getRetryableModel } from "./openrouter";
+import { getRetryableModel } from "@/lib/ai/container";
+
+const GUARDRAIL_MODEL = process.env.GUARDRAIL_MODEL ?? "openai/gpt-oss-safeguard-20b";
 
 export const InputGuardrailSchema = z.object({
   reasoning: z.string().describe("Brief explanation"),
@@ -50,7 +52,7 @@ type InputGuardrailResult = z.infer<typeof InputGuardrailSchema>;
 
 export async function inputGuardrail(userPrompt: string): Promise<InputGuardrailResult> {
   const { output } = (await generateText({
-    model: getRetryableModel("openai/gpt-oss-safeguard-20b"),
+    model: getRetryableModel(GUARDRAIL_MODEL),
     system: INPUT_SYSTEM_PROMPT,
     prompt: `Analyze this user input for safety:\n\n"${userPrompt}"`,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Zod v4 type incompatibility with AI SDK Output API

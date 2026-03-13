@@ -1,6 +1,6 @@
 import { generateText, ModelMessage, Output } from "ai";
 import { z } from "zod";
-import { getRetryableModel } from "../openrouter";
+import { getRetryableModel } from "@/lib/ai/container";
 import { QueryResult, QueryUpdate, executeSingleQuery } from "./query-executor";
 import { PlannedQuery } from "./query-planner";
 import { EVALUATE_COMPLETENESS_SYSTEM_PROMPT, FOLLOW_UP_QUERY_SYSTEM_PROMPT } from "./prompts";

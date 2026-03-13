@@ -1,6 +1,6 @@
 import { generateText, ModelMessage, Output } from "ai";
 import { z } from "zod";
-import { getRetryableModel } from "../openrouter";
+import { getRetryableModel } from "@/lib/ai/container";
 import { SQL_GENERATOR_SYSTEM_PROMPT } from "./prompts";
 import { withBaseContext } from "../base-context";
 import { queryPlanSchema } from "./schema";

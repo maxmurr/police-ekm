@@ -27,6 +27,8 @@
   "dependencies": {
     "@ai-sdk-tools/devtools": "^0.8.4",
     "@ai-sdk-tools/store": "^0.8.2",
+    "@ai-sdk/openai-compatible": "^2.0.35",
+    "@evyweb/ioctopus": "^1.3.1",
     "@openrouter/ai-sdk-provider": "^2.2.3",
     "@opentelemetry/api": "^1.9.0",
     "@radix-ui/react-avatar": "^1.1.10",

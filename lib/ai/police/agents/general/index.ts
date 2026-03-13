@@ -1,5 +1,5 @@
 import { ModelMessage, streamText } from "ai";
-import { getRetryableModel } from "../../../openrouter";
+import { getRetryableModel } from "@/lib/ai/container";
 import generalAgentSystemPrompt from "./prompt.md";
 import { withBaseContext } from "../../../base-context";
 
