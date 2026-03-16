@@ -3,9 +3,9 @@ import { getRetryableModel } from "@/lib/ai/container";
 import generalAgentSystemPrompt from "./prompt.md";
 import { withBaseContext } from "../../../base-context";
 
-export function streamGeneralAgent(opts: { messages: ModelMessage[] }) {
+export async function streamGeneralAgent(opts: { messages: ModelMessage[] }) {
   return streamText({
-    model: getRetryableModel(),
+    model: await getRetryableModel(),
     system: withBaseContext(generalAgentSystemPrompt),
     temperature: 0.5,
     messages: opts.messages,

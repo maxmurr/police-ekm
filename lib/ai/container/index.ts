@@ -1,4 +1,5 @@
 import { createContainer } from "@evyweb/ioctopus";
+import type { LanguageModel } from "ai";
 import { DI } from "./tokens";
 import type { AIRegistry, GetRetryableModelFn } from "./types";
 import { openrouterModule } from "./modules/openrouter";
@@ -19,7 +20,7 @@ switch (AI_PROVIDER) {
 }
 
 export const getRetryableModel: GetRetryableModelFn = (modelId?) => {
-  return container.get(DI.GET_RETRYABLE_MODEL)(modelId);
+  return container.get(DI.GET_RETRYABLE_MODEL)(modelId) as Promise<LanguageModel>;
 };
 
 export { DI, container };

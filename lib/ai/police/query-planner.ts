@@ -97,7 +97,7 @@ Generate a structured query plan with 1-5 queries. Each query must:
 `);
 
   const result = await generateText({
-    model: getRetryableModel(),
+    model: await getRetryableModel(),
     // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Zod v4 type incompatibility with AI SDK Output API
     output: Output.object({ schema: queryPlanSchema as any }),
     system: enhancedSystemPrompt,

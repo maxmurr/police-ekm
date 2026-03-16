@@ -35,12 +35,40 @@ type VllmEndpoint = {
   provider: ReturnType<typeof createOpenAICompatible>;
 };
 
-function buildEndpointMap(): Map<string, VllmEndpoint> {
+interface VllmModelsResponse {
+  data: Array<{ id: string }>;
+}
+
+async function discoverModel(baseURL: string): Promise<string> {
+  const url = `${baseURL}/v1/models`;
+  const res = await fetch(url, {
+    signal: AbortSignal.timeout(AI_TIMEOUT_MS),
+    headers: VLLM_API_KEY ? { Authorization: `Bearer ${VLLM_API_KEY}` } : undefined,
+  });
+
+  if (!res.ok) {
+    throw new Error(`Failed to discover vLLM models from ${url}: ${res.status} ${res.statusText}`);
+  }
+
+  const body = (await res.json()) as VllmModelsResponse;
+
+  if (!body.data?.length) {
+    throw new Error(`No models found at ${url}`);
+  }
+
+  const modelId = body.data[0].id;
+  logger.info({ modelId, baseURL }, "auto-discovered vLLM model");
+  return modelId;
+}
+
+async function buildEndpointMap(): Promise<Map<string, VllmEndpoint>> {
   const map = new Map<string, VllmEndpoint>();
   const fetchWithTimeout = createTimeoutFetch(AI_TIMEOUT_MS);
 
+  const chatModel = VLLM_CHAT_MODEL ?? (VLLM_CHAT_BASE_URL ? await discoverModel(VLLM_CHAT_BASE_URL) : undefined);
+
   const entries = [
-    { model: VLLM_CHAT_MODEL, baseURL: VLLM_CHAT_BASE_URL },
+    { model: chatModel, baseURL: VLLM_CHAT_BASE_URL },
     { model: VLLM_GUARDRAIL_MODEL, baseURL: VLLM_GUARDRAIL_BASE_URL },
   ];
 
@@ -66,10 +94,18 @@ function buildEndpointMap(): Map<string, VllmEndpoint> {
   return map;
 }
 
-const endpointMap = buildEndpointMap();
+let endpointMapPromise: Promise<Map<string, VllmEndpoint>> | null = null;
 
-export const createVllmRetryableModel: GetRetryableModelFn = (modelId?: string) => {
-  const primaryId = modelId ?? VLLM_CHAT_MODEL ?? "default";
+function getEndpointMap(): Promise<Map<string, VllmEndpoint>> {
+  if (!endpointMapPromise) {
+    endpointMapPromise = buildEndpointMap();
+  }
+  return endpointMapPromise;
+}
+
+export const createVllmRetryableModel: GetRetryableModelFn = async (modelId?: string) => {
+  const endpointMap = await getEndpointMap();
+  const primaryId = modelId ?? [...endpointMap.keys()][0] ?? "default";
   const endpoint = endpointMap.get(primaryId);
 
   if (!endpoint) {

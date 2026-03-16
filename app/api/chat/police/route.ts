@@ -127,7 +127,7 @@ export async function POST(req: Request) {
           reasoning: routerResult.reasoning,
         };
 
-        let streamTextResult: ReturnType<typeof streamInformationAgent>;
+        let streamTextResult: Awaited<ReturnType<typeof streamInformationAgent>>;
 
         if (routerResult.queryType === "information") {
           const userMessage = JSON.stringify(latestMessage);
@@ -176,7 +176,7 @@ export async function POST(req: Request) {
 
             const formattedResults = formatMultipleResultsForAgent(finalResults);
 
-            streamTextResult = streamInformationAgent({
+            streamTextResult = await streamInformationAgent({
               prompt: `
                 User Question:
                 ${userMessage}
@@ -253,7 +253,7 @@ export async function POST(req: Request) {
               stack: error instanceof Error ? error.stack : undefined,
             };
 
-            streamTextResult = streamInformationAgent({
+            streamTextResult = await streamInformationAgent({
               prompt: `
                 User Question:
                 ${userMessage}
@@ -267,7 +267,7 @@ export async function POST(req: Request) {
             });
           }
         } else {
-          streamTextResult = streamGeneralAgent({
+          streamTextResult = await streamGeneralAgent({
             messages: prunedMessages,
           });
         }

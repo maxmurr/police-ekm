@@ -29,7 +29,7 @@ const openrouter = createOpenRouter({
   },
 });
 
-export const createOpenRouterRetryableModel: GetRetryableModelFn = (modelId?: string) => {
+export const createOpenRouterRetryableModel: GetRetryableModelFn = async (modelId?: string) => {
   const primaryId = modelId ?? DEFAULT_MODEL;
 
   return createRetryable<LanguageModel>({

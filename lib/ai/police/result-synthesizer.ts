@@ -63,7 +63,7 @@ ${r.success && r.data && r.data.length > 0 ? `Sample: ${JSON.stringify(r.data[0]
     .join("\n");
 
   const result = await generateText({
-    model: getRetryableModel(),
+    model: await getRetryableModel(),
     // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Zod v4 type incompatibility with AI SDK Output API
     output: Output.object({ schema: evaluateCompletenessSchema as any }),
     system: systemPrompt,
@@ -128,7 +128,7 @@ ${r.success ? `Data: ${r.data?.length || 0} rows` : `Error: ${r.error}`}
 ${suggestedQuery ? `Suggested Focus: ${suggestedQuery}` : ""}`;
 
   const result = await generateText({
-    model: getRetryableModel(),
+    model: await getRetryableModel(),
     system: systemPrompt,
     messages: [...messages, { role: "user" as const, content: contextMessage }],
     temperature: 0.1,

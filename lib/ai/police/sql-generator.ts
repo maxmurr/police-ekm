@@ -27,7 +27,7 @@ export async function sqlGenerator(opts: SqlGeneratorOptions): Promise<string> {
   }
 
   const generateSQLQueryResult = await generateText({
-    model: getRetryableModel(),
+    model: await getRetryableModel(),
     system: systemPrompt,
     messages,
     temperature: 0,

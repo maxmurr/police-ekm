@@ -111,7 +111,7 @@ Return your chart configurations with appropriate color palettes and reasoning.
 
   try {
     const generateResult = await generateText({
-      model: getRetryableModel(),
+      model: await getRetryableModel(),
       system: systemPrompt,
       messages: [{ role: "user", content: prompt }],
       // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Zod v4 type incompatibility with AI SDK Output API

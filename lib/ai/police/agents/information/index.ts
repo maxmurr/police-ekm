@@ -3,9 +3,9 @@ import { getRetryableModel } from "@/lib/ai/container";
 import informationAgentSystemPrompt from "./prompt.md";
 import { withBaseContext } from "../../../base-context";
 
-export function streamInformationAgent(opts: { prompt: string }) {
+export async function streamInformationAgent(opts: { prompt: string }) {
   return streamText({
-    model: getRetryableModel(),
+    model: await getRetryableModel(),
     system: withBaseContext(informationAgentSystemPrompt),
     temperature: 0.5,
     prompt: opts.prompt,

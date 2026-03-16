@@ -53,7 +53,7 @@ type InputGuardrailResult = z.infer<typeof InputGuardrailSchema>;
 
 export async function inputGuardrail(userPrompt: string): Promise<InputGuardrailResult> {
   const result = await generateText({
-    model: getRetryableModel(GUARDRAIL_MODEL),
+    model: await getRetryableModel(GUARDRAIL_MODEL),
     system: INPUT_SYSTEM_PROMPT,
     prompt: `Analyze this user input for safety:\n\n"${userPrompt}"`,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Zod v4 type incompatibility with AI SDK Output API
